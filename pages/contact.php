@@ -19,7 +19,7 @@
     <!-- ##### Breadcrumb Area Start ##### -->
     <div class="breadcrumb-area">
         <!-- Top Breadcrumb Area -->
-        <div class="top-breadcrumb-area bg-img bg-overlay d-flex align-items-center justify-content-center" style="background-image: url(http://localhost/alazea/img/bg-img/24.jpg);">
+        <div class="top-breadcrumb-area bg-img bg-overlay d-flex align-items-center justify-content-center" style="background-image: url(http://localhost/cms-ratih-berkah-jaya/img/bg-img/24.jpg);">
             <h2>Contact US</h2>
         </div>
 
@@ -45,7 +45,7 @@
                 <!-- Contact Thumbnail -->
                 <div class="col-12 col-md-6">
                     <div class="contact--thumbnail">
-                        <img src="http://localhost/alazea/img/bg-img/25.jpg" alt="">
+                        <img src="http://localhost/cms-ratih-berkah-jaya/img/bg-img/25.jpg" alt="">
                     </div>
                 </div>
 

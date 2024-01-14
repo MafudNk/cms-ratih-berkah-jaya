@@ -1,5 +1,5 @@
 <?php 
- $base_url = "http://localhost/alazea";
+ $base_url = "http://localhost/cms-ratih-berkah-jaya";
 ?>
 <footer class="footer-area bg-img" style="background-image: url(<?php echo "$base_url/img/bg-img/bg1.jpg"?>);">
         <!-- Main Footer Area -->

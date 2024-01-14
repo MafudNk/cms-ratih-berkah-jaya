@@ -19,7 +19,7 @@
     <!-- ##### Breadcrumb Area Start ##### -->
     <div class="breadcrumb-area">
         <!-- Top Breadcrumb Area -->
-        <div class="top-breadcrumb-area bg-img bg-overlay d-flex align-items-center justify-content-center" style="background-image: url(http://localhost/alazea/img/bg-img/24.jpg);">
+        <div class="top-breadcrumb-area bg-img bg-overlay d-flex align-items-center justify-content-center" style="background-image: url(http://localhost/cms-ratih-berkah-jaya/img/bg-img/24.jpg);">
             <h2>Product</h2>
         </div>
 
@@ -46,55 +46,55 @@
             $shop = [
                
                 [
-                    'image' => 'http://localhost/alazea/img/bg-img/40.png',
+                    'image' => 'http://localhost/cms-ratih-berkah-jaya/img/bg-img/40.png',
                     'tag' => '<div class="product-tag"> <a href="#">Hot</a> </div>',
                     'name' => 'Cactus Flower',
                     'price' => '$10.99'
                 ],
                 [
-                    'image' => 'http://localhost/alazea/img/bg-img/41.png',
+                    'image' => 'http://localhost/cms-ratih-berkah-jaya/img/bg-img/41.png',
                     'tag' => '',
                     'name' => 'Cactus Flower',
                     'price' => '$10.99'
                 ],
                 [
-                    'image' => 'http://localhost/alazea/img/bg-img/42.png',
+                    'image' => 'http://localhost/cms-ratih-berkah-jaya/img/bg-img/42.png',
                     'tag' => '',
                     'name' => 'Cactus Flower',
                     'price' => '$10.99'
                 ],
                 [
-                    'image' => 'http://localhost/alazea/img/bg-img/43.png',
+                    'image' => 'http://localhost/cms-ratih-berkah-jaya/img/bg-img/43.png',
                     'tag' => '',
                     'name' => 'Cactus Flower',
                     'price' => '$10.99'
                 ],
                 [
-                    'image' => 'http://localhost/alazea/img/bg-img/44.png',
+                    'image' => 'http://localhost/cms-ratih-berkah-jaya/img/bg-img/44.png',
                     'tag' => '',
                     'name' => 'Cactus Flower',
                     'price' => '$10.99'
                 ],
                 [
-                    'image' => 'http://localhost/alazea/img/bg-img/45.png',
+                    'image' => 'http://localhost/cms-ratih-berkah-jaya/img/bg-img/45.png',
                     'tag' => '',
                     'name' => 'Cactus Flower',
                     'price' => '$10.99'
                 ],
                 [
-                    'image' => 'http://localhost/alazea/img/bg-img/46.png',
+                    'image' => 'http://localhost/cms-ratih-berkah-jaya/img/bg-img/46.png',
                     'tag' => '',
                     'name' => 'Cactus Flower',
                     'price' => '$10.99'
                 ],
                 [
-                    'image' => 'http://localhost/alazea/img/bg-img/47.png',
+                    'image' => 'http://localhost/cms-ratih-berkah-jaya/img/bg-img/47.png',
                     'tag' => '<div class="product-tag sale-tag"> <a href="#">Sold Out</a> </div>',
                     'name' => 'Cactus Flower',
                     'price' => '$10.99'
                 ],
                 [
-                    'image' => 'http://localhost/alazea/img/bg-img/48.png',
+                    'image' => 'http://localhost/cms-ratih-berkah-jaya/img/bg-img/48.png',
                     'tag' => '',
                     'name' => 'Cactus Flower',
                     'price' => '$10.99'
