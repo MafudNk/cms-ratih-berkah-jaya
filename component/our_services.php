@@ -17,11 +17,11 @@
                     <div class="single-service-area d-flex align-items-center wow fadeInUp" data-wow-delay="100ms">
                         <!-- Icon -->
                         <div class="service-icon mr-30">
-                            <img src="img/core-img/plant.png" alt="">
+                            <img src="img/core-img/world.png" alt="">
                         </div>
                         <!-- Content -->
                         <div class="service-content">
-                            <h5>Plants Care</h5>
+                            <h5>International Quality Standards</h5>
                             <p>.</p>
                         </div>
                     </div>
@@ -30,11 +30,11 @@
                     <div class="single-service-area d-flex align-items-center wow fadeInUp" data-wow-delay="300ms">
                         <!-- Icon -->
                         <div class="service-icon mr-30">
-                            <img src="img/core-img/water-drop.png" alt="">
+                            <img src="img/core-img/reputation.png" alt="">
                         </div>
                         <!-- Content -->
                         <div class="service-content">
-                            <h5>Pressure Washing</h5>
+                            <h5>Customized Export Solutions</h5>
                             <p>.</p>
                         </div>
                     </div>
@@ -43,11 +43,11 @@
                     <div class="single-service-area d-flex align-items-center wow fadeInUp" data-wow-delay="500ms">
                         <!-- Icon -->
                         <div class="service-icon mr-30">
-                            <img src="img/core-img/watering-plants.png" alt="">
+                            <img src="img/core-img/best-price.png" alt="">
                         </div>
                         <!-- Content -->
                         <div class="service-content">
-                            <h5>Tree Service &amp; Trimming</h5>
+                            <h5>Competitive Pricing</h5>
                             <p>.</p>
                         </div>
                     </div>
@@ -57,10 +57,7 @@
 
             <div class="col-12 col-lg-6">
                 <div class="alazea-video-area bg-overlay mb-100">
-                    <img src="img/bg-img/23.jpg" alt="">
-                    <a href="http://www.youtube.com/watch?v=7HKoqNJtMTQ" class="video-icon">
-                        <i class="fa fa-play" aria-hidden="true"></i>
-                    </a>
+                <a href="index.html" class="nav-brand"><img src="img/core-img/logo.jpg" alt=""></a>
                 </div>
             </div>
         </div>

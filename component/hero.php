@@ -13,6 +13,7 @@ $hero = [
 
 ];
 $shop = "http://localhost/cms-ratih-berkah-jaya/pages/shop.php";
+$about = "http://localhost/cms-ratih-berkah-jaya/pages/about.php";
 ?>
 <section class="hero-area">
     <div class="hero-post-slides owl-carousel">
@@ -32,8 +33,8 @@ $shop = "http://localhost/cms-ratih-berkah-jaya/pages/shop.php";
                                 <h2><?php print_r($value['title']); ?></h2>
                                 <p><?php print_r($value['subtitle']); ?></p>
                                 <div class="welcome-btn-group">
-                                    <a href=<?php echo "$shop"; ?> class="btn alazea-btn active">GET STARTED</a>
-                                    <a href="#" class="btn alazea-btn mr-30">CONTACT US</a>
+                                    <a href=<?php echo "$shop"; ?> class="btn alazea-btn mr-30">GET STARTED</a>
+                                    <a href=<?php echo "$about"; ?> class="btn alazea-btn mr-30">CONTACT US</a>
                                 </div>
                             </div>
                         </div>
