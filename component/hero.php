@@ -6,12 +6,14 @@ $hero = [
         'subtitle' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque ante nec ipsum iaculis, ac iaculis ipsum porttitor. Vivamus cursus nisl lectus, id mattis nisl lobortis eu. Duis diam augue, dapibus ut dolor at, mattis maximus dolor.'
     ],
     [
-        'image' => 'img/bg-img/bg2.jpg',
+        'image' => 'img/bg-img/butterfly_pea.png',
         'title' => 'Plants',
         'subtitle' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque ante nec ipsum iaculis, ac iaculis ipsum porttitor. Vivamus cursus nisl lectus, id mattis nisl lobortis eu. Duis diam augue, dapibus ut dolor at, mattis maximus dolor.'
     ]
 
 ];
+$shop = "http://localhost/cms-ratih-berkah-jaya/pages/shop.php";
+$about = "http://localhost/cms-ratih-berkah-jaya/pages/about.php";
 ?>
 <section class="hero-area">
     <div class="hero-post-slides owl-carousel">
@@ -31,8 +33,8 @@ $hero = [
                                 <h2><?php print_r($value['title']); ?></h2>
                                 <p><?php print_r($value['subtitle']); ?></p>
                                 <div class="welcome-btn-group">
-                                    <a href="#" class="btn alazea-btn mr-30">GET STARTED</a>
-                                    <a href="#" class="btn alazea-btn active">CONTACT US</a>
+                                    <a href=<?php echo "$shop"; ?> class="btn alazea-btn mr-30">GET STARTED</a>
+                                    <a href=<?php echo "$about"; ?> class="btn alazea-btn mr-30">CONTACT US</a>
                                 </div>
                             </div>
                         </div>

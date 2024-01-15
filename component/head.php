@@ -1,5 +1,7 @@
 <?php 
- $favicon = "http://localhost/cms-ratih-berkah-jaya/img/core-img/favicon.ico";
+
+ $favicon = "http://localhost/cms-ratih-berkah-jaya/img/core-img/logo-transparant.png";
+
  $style = "http://localhost/cms-ratih-berkah-jaya/style.css";
 ?>
 <head>
@@ -10,7 +12,7 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>Alazea - Gardening &amp; Landscaping HTML Template</title>
+    <title>Ratih Berkah Jaya</title>
 
     <!-- Favicon -->
     <link rel="icon" href= <?php echo "$favicon"; ?> >
