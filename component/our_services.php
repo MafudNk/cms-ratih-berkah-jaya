@@ -56,9 +56,7 @@
             </div>
 
             <div class="col-12 col-lg-6">
-                <div class="alazea-video-area bg-overlay mb-100">
-                <a href="index.html" class="nav-brand"><img src="img/core-img/logo.jpg" alt=""></a>
-                </div>
+                <a class="nav-brand"><img src="http://localhost/cms-ratih-berkah-jaya/img/core-img/logo-removebg-preview.png" alt=""></a>
             </div>
         </div>
     </div>

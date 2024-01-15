@@ -55,7 +55,7 @@ include 'config/config.php';
                     <nav class="classy-navbar justify-content-between" id="alazeaNav">
 
                         <!-- Nav Brand -->
-                        <a href="index.html" class="nav-brand"><img src="img/core-img/logo-transparant.png" alt=""></a>
+                        <a href="index.php" class="nav-brand"><img src="http://localhost/cms-ratih-berkah-jaya/img/core-img/logo-transparant.png" alt=""></a>
 
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
@@ -100,29 +100,14 @@ include 'config/config.php';
                                         </ul>
                                     </li>
                                     <li><a href=<?php echo "$shop"?>>Product</a></li>
-                                    <li><a href=<?php echo "$portfolio"?>>Portfolio</a></li>
                                     <li><a href=<?php echo "$contact"?>>Contact</a></li>
                                 </ul>
-
-                                <!-- Search Icon -->
-                                <div id="searchIcon">
-                                    <i class="fa fa-search" aria-hidden="true"></i>
-                                </div>
 
                             </div>
                             <!-- Navbar End -->
                         </div>
                     </nav>
 
-                    <!-- Search Form -->
-                    <div class="search-form">
-                        <form action="#" method="get">
-                            <input type="search" name="search" id="search" placeholder="Type keywords &amp; press enter...">
-                            <button type="submit" class="d-none"></button>
-                        </form>
-                        <!-- Close Icon -->
-                        <div class="closeIcon"><i class="fa fa-times" aria-hidden="true"></i></div>
-                    </div>
                 </div>
             </div>
         </div>
