@@ -1,10 +1,6 @@
+
 <?php 
- $base_url = "http://localhost/cms-ratih-berkah-jaya/";
- $about = "http://localhost/cms-ratih-berkah-jaya/pages/about.php";
- $shop = "http://localhost/cms-ratih-berkah-jaya/pages/shop.php";
- $shop_details = "http://localhost/cms-ratih-berkah-jaya/pages/shop-details.php";
- $portfolio = "http://localhost/cms-ratih-berkah-jaya/pages/portfolio.php";
- $contact = "http://localhost/cms-ratih-berkah-jaya/pages/contact.php";
+include 'config/config.php'; 
 ?>
 <header class="header-area">
 
@@ -59,7 +55,7 @@
                     <nav class="classy-navbar justify-content-between" id="alazeaNav">
 
                         <!-- Nav Brand -->
-                        <a href="index.html" class="nav-brand"><img src="img/core-img/logo-transparant.png" alt=""></a>
+                        <a href="index.php" class="nav-brand"><img src="http://localhost/cms-ratih-berkah-jaya/img/core-img/logo-transparant.png" alt=""></a>
 
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
@@ -77,7 +73,7 @@
                             <!-- Navbar Start -->
                             <div class="classynav">
                                 <ul>
-                                    <li><a href= <?php echo "$base_url"; ?>>Home</a></li>
+                                    <li><a href= <?php echo "$app_url"; ?>>Home</a></li>
                                     <li><a href=<?php echo "$about"; ?>>About</a></li>
                                     <li><a href="#">Pages</a>
                                         <ul class="dropdown">
@@ -104,29 +100,14 @@
                                         </ul>
                                     </li>
                                     <li><a href=<?php echo "$shop"?>>Product</a></li>
-                                    <li><a href=<?php echo "$portfolio"?>>Portfolio</a></li>
                                     <li><a href=<?php echo "$contact"?>>Contact</a></li>
                                 </ul>
-
-                                <!-- Search Icon -->
-                                <div id="searchIcon">
-                                    <i class="fa fa-search" aria-hidden="true"></i>
-                                </div>
 
                             </div>
                             <!-- Navbar End -->
                         </div>
                     </nav>
 
-                    <!-- Search Form -->
-                    <div class="search-form">
-                        <form action="#" method="get">
-                            <input type="search" name="search" id="search" placeholder="Type keywords &amp; press enter...">
-                            <button type="submit" class="d-none"></button>
-                        </form>
-                        <!-- Close Icon -->
-                        <div class="closeIcon"><i class="fa fa-times" aria-hidden="true"></i></div>
-                    </div>
                 </div>
             </div>
         </div>

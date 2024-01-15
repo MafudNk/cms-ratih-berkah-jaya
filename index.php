@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include 'component/head.php'; ?>
+<?php 
+
+include 'component/head.php'; ?>
 <link rel="stylesheet" href="style2.css" type="text/css">
 <style>
     .modal-content {
