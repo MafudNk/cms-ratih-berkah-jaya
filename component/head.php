@@ -1,6 +1,6 @@
 <?php 
- $favicon = "http://localhost/alazea/img/core-img/favicon.ico";
- $style = "http://localhost/alazea/style.css";
+ $favicon = "http://localhost/cms-ratih-berkah-jaya/img/core-img/favicon.ico";
+ $style = "http://localhost/cms-ratih-berkah-jaya/style.css";
 ?>
 <head>
     <meta charset="UTF-8">
