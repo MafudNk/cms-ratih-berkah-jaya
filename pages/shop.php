@@ -19,7 +19,9 @@
     <!-- ##### Breadcrumb Area Start ##### -->
     <div class="breadcrumb-area">
         <!-- Top Breadcrumb Area -->
+
         <div class="top-breadcrumb-area bg-img bg-overlay d-flex align-items-center justify-content-center" style="background-image: url(http://localhost/cms-ratih-berkah-jaya/img/bg-img/butterfly_pea2.png);">
+
             <h2>Product</h2>
         </div>
 
@@ -46,24 +48,30 @@
             $shop = [
                
                 [
+
                     'image' => 'http://localhost/cms-ratih-berkah-jaya/img/bg-img/chilli_jamu.png',
+
                     'tag' => '<div class="product-tag"> <a href="#">Hot</a> </div>',
                     'name' => 'Chilli Jamu',
                     'price' => '$10.99'
                 ],
                 [
+
+
                     'image' => 'http://localhost/cms-ratih-berkah-jaya/img/bg-img/cardamom.png',
                     'tag' => '',
                     'name' => 'Cardamom',
                     'price' => '$10.99'
                 ],
                 [
+
                     'image' => 'http://localhost/cms-ratih-berkah-jaya/img/bg-img/mung_bean.png',
                     'tag' => '',
                     'name' => 'Mung Beans',
                     'price' => '$10.99'
                 ],
                 [
+
                     'image' => 'http://localhost/cms-ratih-berkah-jaya/img/bg-img/abc_nutmeg.png',
                     'tag' => '',
                     'name' => 'ABC Nutmeg',
@@ -76,18 +84,21 @@
                     'price' => '$10.99'
                 ],
                 [
+
                     'image' => 'http://localhost/cms-ratih-berkah-jaya/img/bg-img/dry_turmeric.png',
                     'tag' => '',
                     'name' => 'Dry Turmeric',
                     'price' => '$10.99'
                 ],
                 [
+
                     'image' => 'http://localhost/cms-ratih-berkah-jaya/img/bg-img/clove.png',
                     'tag' => '',
                     'name' => 'Clove',
                     'price' => '$10.99'
                 ],
                 [
+
                     'image' => 'http://localhost/cms-ratih-berkah-jaya/img/bg-img/kemukus.png',
                     'tag' => '',
                     'name' => 'Cubeb',

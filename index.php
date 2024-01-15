@@ -3,6 +3,17 @@
 
 <?php include 'component/head.php'; ?>
 <link rel="stylesheet" href="style2.css" type="text/css">
+<style>
+    .modal-content {
+        background-image: url('img/bg-img/popup.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+    }
+</style>
+
 <body>
     <!-- Preloader -->
     <div class="preloader d-flex align-items-center justify-content-center">
@@ -41,33 +52,43 @@
     <!-- ##### Product Area Start ##### -->
     <?php include 'component/product.php'; ?>
     <!-- ##### Product Area End ##### -->
-    <div class="login-popup">
-        <div class="box">
-            <div class="img-area">
-                <div class="img">
+   
+    <!-- Modal -->
+    <!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="false"> -->
+    <div class="modal">
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <form class="" action="send.php" method="post">
+                            <div class="form-group">
+                                <label for="recipient-name" class="col-form-label" style="color: black !important;">Email:</label>
+                                <input type="email" name="email" class="form-control" id="recipient-name">
+                            </div>
+                            <div class="form-group">
+                                <label for="message-text" class="col-form-label" style="color: black !important;">Message:</label>
+                                <textarea class="form-control" name="message" id="message-text"></textarea>
+                            </div>
+                            <button type="submit" name="send" class="btn alazea-btn mr-30">Send message</button>    
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+                       
+                    </div>
                 </div>
-                <h1>Your Logo</h1>
-            </div>
-            <div class="form">
-                <div class="close">&times;</div>
-                <h1>Log In</h1>
-                <form>
-                    <div class="form-group">
-                        <input type="text" placeholder="Email" class="form-control">
-                    </div>
-                    <div class="form-group">
-                        <input type="password" placeholder="Password" class="form-control">
-                    </div>
-                    <div class="form-group">
-                        <label><input type="checkbox">
-                            Remember Me
-                        </label>
-                    </div>
-                    <button type="button" class="btn">Log In</button>
-                </form>
             </div>
         </div>
     </div>
+    <!-- </div> -->
 
     <!-- ##### Subscribe Area Start ##### -->
     <section class="subscribe-newsletter-area" style="background-image: url(img/bg-img/subscribe.png);">

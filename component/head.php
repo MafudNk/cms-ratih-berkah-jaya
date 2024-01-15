@@ -1,5 +1,7 @@
 <?php 
+
  $favicon = "http://localhost/cms-ratih-berkah-jaya/img/core-img/logo-transparant.png";
+
  $style = "http://localhost/cms-ratih-berkah-jaya/style.css";
 ?>
 <head>
