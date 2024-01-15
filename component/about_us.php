@@ -5,9 +5,9 @@
                     <!-- Section Heading -->
                     <div class="section-heading">
                         <h2>ABOUT US</h2>
-                        <p>We are leading in the plants service fields.</p>
+                        <p>To be a global leader in the export of premium spices, recognized for authenticity, quality, and sustainable practices.</p>
                     </div>
-                    <p>Quisque orci quam, vulputate non commodo finibus, molestie ac ante. Duis in sceleri quesem. Nulla sit amet varius nunc. Maecenas dui, tempeu ullam corper in.</p>
+                    <p>At Ratih Berkah Jaya, we take pride in being a distinguished player in the agricultural produce trading sector, specializing in the export of high-quality spices. Our journey is rooted in a commitment to providing not just products but experiences that resonate with our customers.</p>
 
                     <!-- Progress Bar Content Area -->
                     <div class="alazea-progress-bar mb-50">

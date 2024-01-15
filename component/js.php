@@ -1,5 +1,5 @@
 <?php 
- $base_url = "http://localhost/alazea";
+ $base_url = "http://localhost/cms-ratih-berkah-jaya";
 ?>
     <!-- ##### All Javascript Files ##### -->
     <!-- jQuery-2.2.4 js -->
