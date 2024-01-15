@@ -13,14 +13,7 @@
                             <div class="footer-logo mb-30">
                                 <a href="#"><img src=<?php echo "$base_url/img/core-img/white.png"?> alt=""></a>
                             </div>
-                            <p>Lorem ipsum dolor sit samet, consectetur adipiscing elit. India situs atione mantor</p>
-                            <div class="social-info">
-                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                            </div>
+                            <p>To be a global leader in the export of premium spices, recognized for authenticity, quality, and sustainable practices.</p>
                         </div>
                     </div>
 
@@ -59,11 +52,11 @@
                             </div>
 
                             <div class="contact-information">
-                                <p><span>Address:</span> 505 Silk Rd, New York</p>
-                                <p><span>Phone:</span> +1 234 122 122</p>
-                                <p><span>Email:</span> info.deercreative@gmail.com</p>
-                                <p><span>Open hours:</span> Mon - Sun: 8 AM to 9 PM</p>
-                                <p><span>Happy hours:</span> Sat: 2 PM to 4 PM</p>
+                                <p><span>Address:</span> Gurang Kulon, 002/002,
+                                                        Guranganyar, Cerme-Gresik,
+                                                        East Java, Indonesia</p>
+                                <p><span>Phone:</span> +62 821-3199-5992</p>
+                                <p><span>Email:</span> pt.ratihberkahjaya@gmail.com</p>
                             </div>
                         </div>
                     </div>
