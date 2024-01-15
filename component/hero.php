@@ -12,8 +12,8 @@ $hero = [
     ]
 
 ];
-$shop = "http://localhost/cms-ratih-berkah-jaya/pages/shop.php";
-$about = "http://localhost/cms-ratih-berkah-jaya/pages/about.php";
+
+include 'config/config.php'; 
 ?>
 <section class="hero-area">
     <div class="hero-post-slides owl-carousel">

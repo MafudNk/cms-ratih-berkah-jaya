@@ -1,7 +1,7 @@
 <?php 
- $base_url = "http://localhost/cms-ratih-berkah-jaya";
+include 'config/config.php'; 
 ?>
-<footer class="footer-area bg-img" style="background-image: url(<?php echo "$base_url/img/bg-img/bg1.jpg"?>);">
+<footer class="footer-area bg-img" style="background-image: url(<?php echo "$app_url/img/bg-img/bg1.jpg"?>);">
         <!-- Main Footer Area -->
         <div class="main-footer-area">
             <div class="container">
@@ -11,7 +11,7 @@
                     <div class="col-12 col-sm-6 col-lg-3">
                         <div class="single-footer-widget">
                             <div class="footer-logo mb-30">
-                                <a href="#"><img src=<?php echo "$base_url/img/core-img/white.png"?> alt=""></a>
+                                <a href="#"><img src=<?php echo "$app_url/img/core-img/white.png"?> alt=""></a>
                             </div>
                             <p>To be a global leader in the export of premium spices, recognized for authenticity, quality, and sustainable practices.</p>
                         </div>
@@ -19,25 +19,7 @@
 
                     <!-- Single Footer Widget -->
                     <div class="col-12 col-sm-6 col-lg-3">
-                        <!-- <div class="single-footer-widget">
-                            <div class="widget-title">
-                                <h5>QUICK LINK</h5>
-                            </div>
-                            <nav class="widget-nav">
-                                <ul>
-                                    <li><a href="#">Purchase</a></li>
-                                    <li><a href="#">FAQs</a></li>
-                                    <li><a href="#">Payment</a></li>
-                                    <li><a href="#">News</a></li>
-                                    <li><a href="#">Return</a></li>
-                                    <li><a href="#">Advertise</a></li>
-                                    <li><a href="#">Shipping</a></li>
-                                    <li><a href="#">Career</a></li>
-                                    <li><a href="#">Orders</a></li>
-                                    <li><a href="#">Policities</a></li>
-                                </ul>
-                            </nav>
-                        </div> -->
+                        
                     </div>
 
                     <!-- Single Footer Widget -->

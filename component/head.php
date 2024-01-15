@@ -1,8 +1,9 @@
 <?php 
+include 'config/config.php'; 
 
- $favicon = "http://localhost/cms-ratih-berkah-jaya/img/core-img/logo-transparant.png";
+ $favicon = "$app_url/img/core-img/logo-transparant.png";
 
- $style = "http://localhost/cms-ratih-berkah-jaya/style.css";
+ $style = "$app_url/style.css";
 ?>
 <head>
     <meta charset="UTF-8">
