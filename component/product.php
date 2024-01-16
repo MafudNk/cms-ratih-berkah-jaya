@@ -21,15 +21,14 @@ include __DIR__ . '/../config/config.php';
                     <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="100ms">
                         <!-- Product Image -->
                         <div class="product-img">
-                            <a href="shop-details.html"><img src="img/bg-img/chilli_jamu.png" alt=""></a>
-                            <!-- Product Tag -->
+                            <img src="<?php echo "$app_url"; ?>img/bg-img/chilli_jamu.png" alt="">
                             <div class="product-tag">
                                 <a href="#">Hot</a>
                             </div>
                         </div>
                         <!-- Product Info -->
                         <div class="product-info mt-15 text-center">
-                            <a href="shop-details.html">
+                            <a href="<?php echo "$app_url"; ?>shop-details.html">
                                 <p>Chilli Jamu</p>
                             </a>
                             <h6>$10.99</h6>
@@ -42,7 +41,7 @@ include __DIR__ . '/../config/config.php';
                     <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="200ms">
                         <!-- Product Image -->
                         <div class="product-img">
-                            <a href="shop-details.html"><img src="img/bg-img/cardamom.png" alt=""></a>
+                            <img src="<?php echo "$app_url"; ?>img/bg-img/cardamom.png" alt="">
                         </div>
                         <!-- Product Info -->
                         <div class="product-info mt-15 text-center">
@@ -59,7 +58,7 @@ include __DIR__ . '/../config/config.php';
                     <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="300ms">
                         <!-- Product Image -->
                         <div class="product-img">
-                            <a href="shop-details.html"><img src="img/bg-img/mung_bean.png" alt=""></a>
+                            <img src="<?php echo "$app_url"; ?>img/bg-img/mung_bean.png" alt="">
                         </div>
                         <!-- Product Info -->
                         <div class="product-info mt-15 text-center">
@@ -76,7 +75,7 @@ include __DIR__ . '/../config/config.php';
                     <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="400ms">
                         <!-- Product Image -->
                         <div class="product-img">
-                            <a href="shop-details.html"><img src="img/bg-img/abc_nutmeg.png" alt=""></a>
+                            <img src="<?php echo "$app_url"; ?>img/bg-img/abc_nutmeg.png" alt="">
                         </div>
                         <!-- Product Info -->
                         <div class="product-info mt-15 text-center">
