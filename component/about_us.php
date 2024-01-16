@@ -95,7 +95,7 @@
                                     <img src="img/core-img/potted-plant.png" alt="">
                                     <h5>Concept</h5>
                                     <p>We place great emphasis on flexibility, service and cooperation. Together we find
-                                        the most suitable form of sale for you and your houseplants</p>
+                                        the most suitable form of sale for you and your houseplants.</p>
                                 </div>
                             </div>
 

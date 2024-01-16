@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include '../component/head.php'; ?>
+<?php include '../component/head.php'; 
+include __DIR__ . '/../config/config.php'; 
+?>
 
 <body>
     <!-- Preloader -->
     <div class="preloader d-flex align-items-center justify-content-center">
         <div class="preloader-circle"></div>
         <div class="preloader-img">
-            <img src="img/core-img/leaf.png" alt="">
+        <img src="../img/core-img/logo.jpg" alt="">
         </div>
     </div>
 
@@ -19,7 +21,7 @@
     <!-- ##### Breadcrumb Area Start ##### -->
     <div class="breadcrumb-area">
         <!-- Top Breadcrumb Area -->
-        <div class="top-breadcrumb-area bg-img bg-overlay d-flex align-items-center justify-content-center" style="background-image: url(http://localhost/cms-ratih-berkah-jaya/img/bg-img/24.jpg);">
+        <div class="top-breadcrumb-area bg-img bg-overlay d-flex align-items-center justify-content-center" style="background-image: url(http://localhost/cms-ratih-berkah-jaya/img/bg-img/bg1.jpg);">
             <h2>Contact US</h2>
         </div>
 
@@ -28,7 +30,7 @@
                 <div class="col-12">
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="#"><i class="fa fa-home"></i> Home</a></li>
+                            <li class="breadcrumb-item"><a href=<?php echo "$app_url"; ?>><i class="fa fa-home"></i> Home</a></li>
                             <li class="breadcrumb-item active" aria-current="page">Contact</li>
                         </ol>
                     </nav>
@@ -45,7 +47,7 @@
                 <!-- Contact Thumbnail -->
                 <div class="col-12 col-md-6">
                     <div class="contact--thumbnail">
-                        <img src="http://localhost/cms-ratih-berkah-jaya/img/bg-img/25.jpg" alt="">
+                        <img src="http://localhost/cms-ratih-berkah-jaya/img/core-img/logo-removebg-preview.png" alt="">
                     </div>
                 </div>
 
@@ -57,11 +59,11 @@
                     </div>
                     <!-- Contact Information -->
                     <div class="contact-information">
-                        <p><span>Address:</span> 505 Silk Rd, New York</p>
-                        <p><span>Phone:</span> +1 234 122 122</p>
-                        <p><span>Email:</span> info.deercreative@gmail.com</p>
-                        <p><span>Open hours:</span> Mon - Sun: 8 AM to 9 PM</p>
-                        <p><span>Happy hours:</span> Sat: 2 PM to 4 PM</p>
+                        <p><span>Address:</span> Gurang Kulon, 002/002,
+                                                        Guranganyar, Cerme-Gresik,
+                                                        East Java, Indonesia</p>
+                        <p><span>Phone:</span> +62 821-3199-5992</p>
+                        <p><span>Email:</span> pt.ratihberkahjaya@gmail.com</p>
                     </div>
                 </div>
             </div>
