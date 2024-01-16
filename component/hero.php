@@ -2,13 +2,13 @@
 $hero = [
     [
         'image' => 'img/bg-img/bg1.jpg',
-        'title' => 'Plants exist in the weather and light rays that surround them',
-        'subtitle' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque ante nec ipsum iaculis, ac iaculis ipsum porttitor. Vivamus cursus nisl lectus, id mattis nisl lobortis eu. Duis diam augue, dapibus ut dolor at, mattis maximus dolor.'
+        'title' => 'Premium Spice Harvests Await You!',
+        'subtitle' => 'Immerse yourself in the essence of premium quality spices meticulously sourced from Indonesian farms. Ratih Berkah Jaya guarantees an exquisite array of flavors to elevate your culinary creations.'
     ],
     [
         'image' => 'img/bg-img/butterfly_pea.png',
-        'title' => 'Plants',
-        'subtitle' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque ante nec ipsum iaculis, ac iaculis ipsum porttitor. Vivamus cursus nisl lectus, id mattis nisl lobortis eu. Duis diam augue, dapibus ut dolor at, mattis maximus dolor.'
+        'title' => 'Global Spice Solutions, Seamless Export Experience!',
+        'subtitle' => 'As your trusted spice export partner, Ratih Berkah Jaya ensures a seamless journey from our farms to your destination. Our commitment to excellence extends globally, promising you a supply chain you can rely on.'
     ]
 
 ];

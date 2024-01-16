@@ -1,3 +1,7 @@
+<?php 
+include __DIR__ . '/../config/config.php'; 
+?>
+
 <section class="new-arrivals-products-area bg-gray section-padding-100">
         <div class="container">
             <div class="row">
@@ -85,7 +89,7 @@
                 </div>
 
                 <div class="col-12 text-center">
-                    <a href="#" class="btn alazea-btn">View All</a>
+                    <a href=<?php echo "$shop"; ?> class="btn alazea-btn">View All</a>
                 </div>
 
             </div>

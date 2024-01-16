@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include '../component/head.php'; ?>
+<?php include '../component/head.php'; 
+include __DIR__ . '/../config/config.php'; 
+?>
 
 <body>
     <!-- Preloader -->
@@ -28,7 +30,7 @@
                 <div class="col-12">
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="#"><i class="fa fa-home"></i> Home</a></li>
+                            <li class="breadcrumb-item"><a href=<?php echo "$app_url"; ?>><i class="fa fa-home"></i> Home</a></li>
                             <li class="breadcrumb-item active" aria-current="page">About</li>
                         </ol>
                     </nav>
@@ -54,8 +56,8 @@
                     <div class="alazea-progress-bar mb-50">
                         <!-- Single Progress Bar ganti warna fill di active.js -->
                         <div class="single_progress_bar">
-                            <p>Office plants</p>
-                            <div id="bar1" class="barfiller">
+                            <p>Abc Nutmeg</p>
+                            <div id="bar4" class="barfiller">
                                 <div class="tipWrap">
                                     <span class="tip"></span>
                                 </div>
@@ -65,19 +67,8 @@
 
                         <!-- Single Progress Bar -->
                         <div class="single_progress_bar">
-                            <p>Field manager</p>
+                            <p>Chili Jamu</p>
                             <div id="bar2" class="barfiller">
-                                <div class="tipWrap">
-                                    <span class="tip"></span>
-                                </div>
-                                <span class="fill" data-percentage="70"></span>
-                            </div>
-                        </div>
-
-                        <!-- Single Progress Bar -->
-                        <div class="single_progress_bar">
-                            <p>Landscape design</p>
-                            <div id="bar3" class="barfiller">
                                 <div class="tipWrap">
                                     <span class="tip"></span>
                                 </div>
@@ -87,12 +78,12 @@
 
                         <!-- Single Progress Bar -->
                         <div class="single_progress_bar">
-                            <p>Garden Care</p>
-                            <div id="bar4" class="barfiller">
+                            <p>Cardanom</p>
+                            <div id="bar1" class="barfiller">
                                 <div class="tipWrap">
                                     <span class="tip"></span>
                                 </div>
-                                <span class="fill" data-percentage="65"></span>
+                                <span class="fill" data-percentage="80"></span>
                             </div>
                         </div>
                     </div>
@@ -104,36 +95,40 @@
                             <!-- Single Benefits Area -->
                             <div class="col-12 col-sm-6">
                                 <div class="single-benefits-area">
-                                    <img src="img/core-img/b1.png" alt="">
-                                    <h5>Quality Products</h5>
-                                    <p>Intiam eu sagittis est, at commodo lacini libero. Praesent dignissim sed odio vel aliquam manta lagorn.</p>
+                                    <img src="../img/core-img/potted-plant.png" alt="">
+                                    <h5>Concept</h5>
+                                    <p>We place great emphasis on flexibility, service and cooperation. Together we find
+                                        the most suitable form of sale for you and your houseplants.</p>
                                 </div>
                             </div>
 
                             <!-- Single Benefits Area -->
                             <div class="col-12 col-sm-6">
                                 <div class="single-benefits-area">
-                                    <img src="img/core-img/b2.png" alt="">
-                                    <h5>Perfect Service</h5>
-                                    <p>Intiam eu sagittis est, at commodo lacini libero. Praesent dignissim sed odio vel aliquam manta lagorn.</p>
+                                    <img src="../img/core-img/plant.png" alt="">
+                                    <h5>Prepare</h5>
+                                    <p>We have prepared all things related to ornamental plants that suit your needs.
+                                    </p>
                                 </div>
                             </div>
 
                             <!-- Single Benefits Area -->
                             <div class="col-12 col-sm-6">
                                 <div class="single-benefits-area">
-                                    <img src="img/core-img/b3.png" alt="">
-                                    <h5>100% Natural</h5>
-                                    <p>Intiam eu sagittis est, at commodo lacini libero. Praesent dignissim sed odio vel aliquam manta lagorn.</p>
+                                    <img src="../img/core-img/medicine.png" alt="">
+                                    <h5>Retouch</h5>
+                                    <p>Before your ornamental plants get to your home or office, we will always confirm
+                                        the desired changes to you.</p>
                                 </div>
                             </div>
 
                             <!-- Single Benefits Area -->
                             <div class="col-12 col-sm-6">
                                 <div class="single-benefits-area">
-                                    <img src="img/core-img/b4.png" alt="">
-                                    <h5>Environmentally friendly</h5>
-                                    <p>Intiam eu sagittis est, at commodo lacini libero. Praesent dignissim sed odio vel aliquam manta lagorn.</p>
+                                    <img src="../img/core-img/growing.png" alt="">
+                                    <h5>Finalize</h5>
+                                    <p>We will finalize and make sure again regarding your Ornamental Plants there are
+                                        no changes and according to your needs.</p>
                                 </div>
                             </div>
                         </div>
