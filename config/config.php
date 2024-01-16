@@ -1,10 +1,10 @@
 <?php
 
 
- $app_url = "http://localhost/cms-ratih-berkah-jaya/";
- $about = "http://localhost/cms-ratih-berkah-jaya/pages/about.php";
- $shop = "http://localhost/cms-ratih-berkah-jaya/pages/shop.php";
- $shop_details = "http://localhost/cms-ratih-berkah-jaya/pages/shop-details.php";
- $portfolio = "http://localhost/cms-ratih-berkah-jaya/pages/portfolio.php";
- $contact = "http://localhost/cms-ratih-berkah-jaya/pages/contact.php";
+ $app_url = "https://ratihberkahjaya.com/";
+ $about = "https://ratihberkahjaya.com/pages/about.php";
+ $shop = "https://ratihberkahjaya.com/pages/shop.php";
+ $shop_details = "https://ratihberkahjaya.com/pages/shop-details.php";
+ $portfolio = "https://ratihberkahjaya.com/pages/portfolio.php";
+ $contact = "https://ratihberkahjaya.com/pages/contact.php";
 ?>
