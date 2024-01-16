@@ -10,7 +10,7 @@ include __DIR__ . '/../config/config.php';
     <div class="preloader d-flex align-items-center justify-content-center">
         <div class="preloader-circle"></div>
         <div class="preloader-img">
-            <img src="../img/core-img/logo.jpg" alt="">
+            <img src="<?php echo "$app_url"; ?>img/core-img/logo.jpg" alt="">
         </div>
     </div>
 
@@ -23,7 +23,7 @@ include __DIR__ . '/../config/config.php';
     <div class="breadcrumb-area">
         <!-- Top Breadcrumb Area -->
 
-        <div class="top-breadcrumb-area bg-img bg-overlay d-flex align-items-center justify-content-center" style="background-image: url(http://localhost/cms-ratih-berkah-jaya/img/bg-img/bg1.jpg);">
+        <div class="top-breadcrumb-area bg-img bg-overlay d-flex align-items-center justify-content-center" style="background-image: url(<?php echo "$app_url"; ?>img/bg-img/bg1.jpg);">
 
             <h2>Product</h2>
         </div>
