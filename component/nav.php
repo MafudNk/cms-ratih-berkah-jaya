@@ -55,7 +55,7 @@ include __DIR__ . '/../config/config.php';
                     <nav class="classy-navbar justify-content-between" id="alazeaNav">
 
                         <!-- Nav Brand -->
-                        <a href="index.php" class="nav-brand"><img src="http://localhost/cms-ratih-berkah-jaya/img/core-img/logo-transparant.png" alt=""></a>
+                        <a href="index.php" class="nav-brand"><img src="<?php echo "$app_url"; ?>img/core-img/logo-transparant.png" alt=""></a>
 
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
