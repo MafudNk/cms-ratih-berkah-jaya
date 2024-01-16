@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include '../component/head.php'; ?>
+<?php include '../component/head.php'; 
+include __DIR__ . '/../config/config.php'; 
+?>
 
 <body>
     <!-- Preloader -->
     <div class="preloader d-flex align-items-center justify-content-center">
         <div class="preloader-circle"></div>
         <div class="preloader-img">
-            <img src="img/core-img/leaf.png" alt="">
+            <img src="../img/core-img/logo.jpg" alt="">
         </div>
     </div>
 
@@ -20,7 +22,7 @@
     <div class="breadcrumb-area">
         <!-- Top Breadcrumb Area -->
 
-        <div class="top-breadcrumb-area bg-img bg-overlay d-flex align-items-center justify-content-center" style="background-image: url(http://localhost/cms-ratih-berkah-jaya/img/bg-img/butterfly_pea2.png);">
+        <div class="top-breadcrumb-area bg-img bg-overlay d-flex align-items-center justify-content-center" style="background-image: url(http://localhost/cms-ratih-berkah-jaya/img/bg-img/bg1.jpg);">
 
             <h2>Product</h2>
         </div>
@@ -30,7 +32,7 @@
                 <div class="col-12">
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="#"><i class="fa fa-home"></i> Home</a></li>
+                            <li class="breadcrumb-item"><a href=<?php echo "$app_url"; ?>><i class="fa fa-home"></i> Home</a></li>
                             <li class="breadcrumb-item active" aria-current="page">Product</li>
                         </ol>
                     </nav>
@@ -271,14 +273,14 @@
                                     <div class="single-product-area mb-50">
                                         <!-- Product Image -->
                                         <div class="product-img">
-                                            <a href="shop-details.html"><img src=<?php print_r($value['image']); ?> alt=""></a>
+                                            <a href="shop-details.php"><img src=<?php print_r($value['image']); ?> alt=""></a>
                                             <!-- Product Tag -->
                                             <?php print_r($value['tag']); ?>
 
                                         </div>
                                         <!-- Product Info -->
                                         <div class="product-info mt-15 text-center">
-                                            <a href="shop-details.html">
+                                            <a href="shop-details.php">
                                                 <p><?php print_r($value['name']); ?></p>
                                             </a>
                                             <h6><?php print_r($value['price']); ?></h6>

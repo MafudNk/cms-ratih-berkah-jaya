@@ -1,5 +1,5 @@
 <?php 
-include 'config/config.php'; 
+include __DIR__ . '/../config/config.php'; 
 ?>
 <footer class="footer-area bg-img" style="background-image: url(<?php echo "$app_url/img/bg-img/bg1.jpg"?>);">
         <!-- Main Footer Area -->

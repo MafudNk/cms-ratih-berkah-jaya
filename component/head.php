@@ -1,5 +1,5 @@
 <?php 
-include 'config/config.php'; 
+include __DIR__ . '/../config/config.php'; 
 
  $favicon = "$app_url/img/core-img/logo-transparant.png";
 
