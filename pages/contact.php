@@ -21,7 +21,7 @@ include __DIR__ . '/../config/config.php';
     <!-- ##### Breadcrumb Area Start ##### -->
     <div class="breadcrumb-area">
         <!-- Top Breadcrumb Area -->
-        <div class="top-breadcrumb-area bg-img bg-overlay d-flex align-items-center justify-content-center" style="background-image: url(http://localhost/cms-ratih-berkah-jaya/img/bg-img/bg1.jpg);">
+        <div class="top-breadcrumb-area bg-img bg-overlay d-flex align-items-center justify-content-center" style="background-image: url(<?php echo "$app_url"; ?>img/bg-img/bg1.jpg);">
             <h2>Contact US</h2>
         </div>
 
@@ -47,7 +47,7 @@ include __DIR__ . '/../config/config.php';
                 <!-- Contact Thumbnail -->
                 <div class="col-12 col-md-6">
                     <div class="contact--thumbnail">
-                        <img src="http://localhost/cms-ratih-berkah-jaya/img/core-img/logo-removebg-preview.png" alt="">
+                        <img src="<?php echo "$app_url"; ?>img/core-img/logo-removebg-preview.png" alt="">
                     </div>
                 </div>
 

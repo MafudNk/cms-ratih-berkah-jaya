@@ -21,7 +21,7 @@ include __DIR__ . '/../config/config.php';
     <!-- ##### Breadcrumb Area Start ##### -->
     <div class="breadcrumb-area">
         <!-- Top Breadcrumb Area -->
-        <div class="top-breadcrumb-area bg-img bg-overlay d-flex align-items-center justify-content-center" style="background-image: url(../img/bg-img/bg1.jpg);">
+        <div class="top-breadcrumb-area bg-img bg-overlay d-flex align-items-center justify-content-center" style="background-image: url(<?php echo "$app_url"; ?>img/bg-img/bg1.jpg);">
             <h2>ABOUT US</h2>
         </div>
 
@@ -95,7 +95,7 @@ include __DIR__ . '/../config/config.php';
                             <!-- Single Benefits Area -->
                             <div class="col-12 col-sm-6">
                                 <div class="single-benefits-area">
-                                    <img src="../img/core-img/potted-plant.png" alt="">
+                                    <img src="<?php echo "$app_url"; ?>img/core-img/potted-plant.png" alt="">
                                     <h5>Concept</h5>
                                     <p>We place great emphasis on flexibility, service and cooperation. Together we find
                                         the most suitable form of sale for you and your houseplants.</p>
@@ -105,7 +105,7 @@ include __DIR__ . '/../config/config.php';
                             <!-- Single Benefits Area -->
                             <div class="col-12 col-sm-6">
                                 <div class="single-benefits-area">
-                                    <img src="../img/core-img/plant.png" alt="">
+                                    <img src="<?php echo "$app_url"; ?>img/core-img/plant.png" alt="">
                                     <h5>Prepare</h5>
                                     <p>We have prepared all things related to ornamental plants that suit your needs.
                                     </p>
@@ -115,7 +115,7 @@ include __DIR__ . '/../config/config.php';
                             <!-- Single Benefits Area -->
                             <div class="col-12 col-sm-6">
                                 <div class="single-benefits-area">
-                                    <img src="../img/core-img/medicine.png" alt="">
+                                    <img src="<?php echo "$app_url"; ?>img/core-img/medicine.png" alt="">
                                     <h5>Retouch</h5>
                                     <p>Before your ornamental plants get to your home or office, we will always confirm
                                         the desired changes to you.</p>
@@ -125,7 +125,7 @@ include __DIR__ . '/../config/config.php';
                             <!-- Single Benefits Area -->
                             <div class="col-12 col-sm-6">
                                 <div class="single-benefits-area">
-                                    <img src="../img/core-img/growing.png" alt="">
+                                    <img src="<?php echo "$app_url"; ?>img/core-img/growing.png" alt="">
                                     <h5>Finalize</h5>
                                     <p>We will finalize and make sure again regarding your Ornamental Plants there are
                                         no changes and according to your needs.</p>
@@ -167,7 +167,7 @@ include __DIR__ . '/../config/config.php';
                     <div class="single-service-area d-flex align-items-center wow fadeInUp" data-wow-delay="100ms">
                         <!-- Icon -->
                         <div class="service-icon mr-30">
-                            <img src="http://localhost/cms-ratih-berkah-jaya/img/core-img/world.png" alt="">
+                            <img src="<?php echo "$app_url"; ?>img/core-img/world.png" alt="">
                         </div>
                         <!-- Content -->
                         <div class="service-content">
@@ -180,7 +180,7 @@ include __DIR__ . '/../config/config.php';
                     <div class="single-service-area d-flex align-items-center wow fadeInUp" data-wow-delay="300ms">
                         <!-- Icon -->
                         <div class="service-icon mr-30">
-                            <img src="http://localhost/cms-ratih-berkah-jaya/img/core-img/reputation.png" alt="">
+                            <img src="<?php echo "$app_url"; ?>img/core-img/reputation.png" alt="">
                         </div>
                         <!-- Content -->
                         <div class="service-content">
@@ -193,7 +193,7 @@ include __DIR__ . '/../config/config.php';
                     <div class="single-service-area d-flex align-items-center wow fadeInUp" data-wow-delay="500ms">
                         <!-- Icon -->
                         <div class="service-icon mr-30">
-                            <img src="http://localhost/cms-ratih-berkah-jaya/img/core-img/best-price.png" alt="">
+                            <img src="<?php echo "$app_url"; ?>img/core-img/best-price.png" alt="">
                         </div>
                         <!-- Content -->
                         <div class="service-content">
@@ -206,7 +206,7 @@ include __DIR__ . '/../config/config.php';
             </div>
 
                 <div class="col-12 col-lg-6">
-                    <a class="nav-brand"><img src="http://localhost/cms-ratih-berkah-jaya/img/core-img/logo-removebg-preview.png" alt=""></a>
+                    <a class="nav-brand"><img src="<?php echo "$app_url"; ?>img/core-img/logo-removebg-preview.png" alt=""></a>
                 </div>
             </div>
         </div>
@@ -235,7 +235,7 @@ include __DIR__ . '/../config/config.php';
                     <div class="single-team-member text-center mb-100">
                         <!-- Team Member Thumb -->
                         <div class="team-member-thumb">
-                            <img src="http://localhost/cms-ratih-berkah-jaya/img/bg-img/team1.png" alt="">
+                            <img src="<?php echo "$app_url"; ?>img/bg-img/team1.png" alt="">
                         </div>
                         <!-- Team Member Info -->
                         <div class="team-member-info mt-30">
@@ -250,7 +250,7 @@ include __DIR__ . '/../config/config.php';
                     <div class="single-team-member text-center mb-100">
                         <!-- Team Member Thumb -->
                         <div class="team-member-thumb">
-                            <img src="http://localhost/cms-ratih-berkah-jaya/img/bg-img/team2.png" alt="">
+                            <img src="<?php echo "$app_url"; ?>img/bg-img/team2.png" alt="">
                         </div>
                         <!-- Team Member Info -->
                         <div class="team-member-info mt-30">
@@ -265,7 +265,7 @@ include __DIR__ . '/../config/config.php';
                     <div class="single-team-member text-center mb-100">
                         <!-- Team Member Thumb -->
                         <div class="team-member-thumb">
-                            <img src="http://localhost/cms-ratih-berkah-jaya/img/bg-img/team3.png" alt="">
+                            <img src="<?php echo "$app_url"; ?>img/bg-img/team3.png" alt="">
                         </div>
                         <!-- Team Member Info -->
                         <div class="team-member-info mt-30">
@@ -280,7 +280,7 @@ include __DIR__ . '/../config/config.php';
                     <div class="single-team-member text-center mb-100">
                         <!-- Team Member Thumb -->
                         <div class="team-member-thumb">
-                            <img src="http://localhost/cms-ratih-berkah-jaya/img/bg-img/team4.png" alt="">
+                            <img src="<?php echo "$app_url"; ?>img/bg-img/team4.png" alt="">
                         </div>
                         <!-- Team Member Info -->
                         <div class="team-member-info mt-30">

@@ -1,3 +1,5 @@
+<?php
+include __DIR__ . '/../config/config.php';?>
 <section class="our-services-area bg-gray section-padding-100-0">
     <div class="container">
         <div class="row">
@@ -56,7 +58,7 @@
             </div>
 
             <div class="col-12 col-lg-6">
-                <a class="nav-brand"><img src="http://localhost/cms-ratih-berkah-jaya/img/core-img/logo-removebg-preview.png" alt=""></a>
+                <a class="nav-brand"><img src="<?php echo "$app_url"; ?>img/core-img/logo-removebg-preview.png" alt=""></a>
             </div>
         </div>
     </div>
