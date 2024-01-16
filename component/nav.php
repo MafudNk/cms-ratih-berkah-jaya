@@ -74,29 +74,12 @@ include __DIR__ . '/../config/config.php';
                             <div class="classynav">
                                 <ul>
                                     <li><a href= <?php echo "$app_url"; ?>>Home</a></li>
-                                    <li><a href=<?php echo "$about"; ?>>About</a></li>
-                                    <li><a href="#">Pages</a>
+                                    
+                                    <li><a href="#">About</a>
                                         <ul class="dropdown">
-                                            
-                                            <li><a href=<?php echo "$shop"?>>Shop</a>
-                                                <ul class="dropdown">
-                                                    <li><a href=<?php echo "$shop"?>>Shop</a></li>
-                                                    <li><a href=<?php echo "$shop_details"?>>Shop Details</a></li>
-                                                </ul>
+                                            <li><a href="https://ratihberkahjaya.com/files/f864a91f49ed1f907d4d357796dcf3b1e4c31c1c.pdf" target="_blank">Company Profile</a>
                                             </li>
-                                            <!-- <li><a href="portfolio.php"?>>Portfolio</a>
-                                                <ul class="dropdown">
-                                                    <li><a href="portfolio.php"?>>Portfolio</a></li>
-                                                    <li><a href="single-portfolio.php"?>>Portfolio Details</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="blog.php"?>>Blog</a>
-                                                <ul class="dropdown">
-                                                    <li><a href="blog.php">Blog</a></li>
-                                                    <li><a href="single-post.php">Blog Details</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="contact.php">Contact</a></li> -->
+                                            <li><a href=<?php echo "$about"; ?>>About</a></li>
                                         </ul>
                                     </li>
                                     <li><a href=<?php echo "$shop"?>>Product</a></li>
