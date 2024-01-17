@@ -1,10 +1,13 @@
+
 <?php
+include __DIR__ . '/../config/config.php'; 
 $product = [
 
     [
 
         'id' => 1,
-        'image' => 'https://ratihberkahjaya.com/img/bg-img/chilli_jamu.png',
+        'image' => $app_url . 'img/bg-img/chilli_jamu.png',
+        'image_display' => $app_url . 'img/bg-img/chilli_jamu-modified.png',
         'tag' => '<div class="product-tag"> <a href="#">Hot</a> </div>',
         'name' => 'Chilli Jamu',
         'information' => "Chilli Jamu is an innovative product that combines the spicy taste of chili with the properties of traditional Indonesian herbal medicine. Jamu itself is a herbal drink that has long been known in Indonesian culture as a traditional concoction for health and body balance.",
@@ -67,7 +70,8 @@ $product = [
 
 
         'id' => 2,
-        'image' => 'https://ratihberkahjaya.com/img/bg-img/cardamom.png',
+        'image' => $app_url . 'img/bg-img/cardamom.png',
+        'image_display' => $app_url . 'img/bg-img/cardamom-modified.png',
         'tag' => '',
         'name' => 'Cardamom',
         'description' => "Cardamom is often used in hot drinks such as tea and coffee, giving an exotic touch to everyday drinks. Additionally, it can also be used in cold drinks such as smoothies or cocktails to create a unique taste experience.",
@@ -78,7 +82,8 @@ $product = [
     [
 
         'id' => 3,
-        'image' => 'https://ratihberkahjaya.com/img/bg-img/mung_bean.png',
+        'image' => $app_url . 'img/bg-img/mung_bean.png',
+        'image_display' => $app_url . 'img/bg-img/mung_bean-modified.png',
         'tag' => '',
         'name' => 'Mung Beans',
         'information' => " Mung Beans Information: 
@@ -179,7 +184,8 @@ $product = [
     [
 
         'id' => 4,
-        'image' => 'https://ratihberkahjaya.com/img/bg-img/abc_nutmeg.png',
+        'image' => $app_url . 'img/bg-img/abc_nutmeg.png',
+        'image_display' => $app_url . 'img/bg-img/abc_nutmeg-modified.png',
         'tag' => '',
         'name' => 'ABC Nutmeg',
         'description' => " Nutmeg Description: 
@@ -287,7 +293,8 @@ $product = [
     ],
     [
         'id' => 5,
-        'image' => 'https://ratihberkahjaya.com/img/bg-img/dry_laos.png',
+        'image' => $app_url . 'img/bg-img/dry_laos.png',
+        'image_display' => $app_url . 'img/bg-img/dry_laos-modified.png',
         'tag' => '',
         'name' => 'Dry Laos',
         'description' => " Dry Galangal Description: 
@@ -396,7 +403,8 @@ $product = [
     [
 
         'id' => 6,
-        'image' => 'https://ratihberkahjaya.com/img/bg-img/dry_turmeric.png',
+        'image' => $app_url . 'img/bg-img/dry_turmeric.png',
+        'image_display' => $app_url . 'img/bg-img/dry_turmeric-modified.png',
         'tag' => '',
         'name' => 'Dry Turmeric',
         'description' => " Dry Turmeric Description: 
@@ -580,7 +588,8 @@ $product = [
     [
 
         'id' => 7,
-        'image' => 'https://ratihberkahjaya.com/img/bg-img/clove.png',
+        'image' => $app_url . 'img/bg-img/clove.png',
+        'image_display' => $app_url . 'img/bg-img/clove-modified.png',
         'tag' => '',
         'name' => 'Clove',
         'description' => "",
@@ -591,7 +600,8 @@ $product = [
     [
 
         'id' => 8,
-        'image' => 'https://ratihberkahjaya.com/img/bg-img/kemukus.png',
+        'image' => $app_url . 'img/bg-img/kemukus.png',
+        'image_display' => $app_url . 'img/bg-img/kemukus-modified.png',
         'tag' => '',
         'name' => 'Cubeb',
         'description' => "",
@@ -601,7 +611,8 @@ $product = [
     ],
     [
         'id' => 9,
-        'image' => 'https://ratihberkahjaya.com/img/bg-img/dry_ginger.png',
+        'image' => $app_url . 'img/bg-img/dry_ginger.png',
+        'image_display' => $app_url . 'img/bg-img/dry_ginger-modified.png',
         'tag' => '',
         'name' => 'Dry Ginger',
         'description' => "",
@@ -611,7 +622,8 @@ $product = [
     ],
     [
         'id' => 10,
-        'image' => 'https://ratihberkahjaya.com/img/bg-img/white_pepper.png',
+        'image' => $app_url . 'img/bg-img/white_pepper.png',
+        'image_display' => $app_url . 'img/bg-img/white_pepper-modified.png',
         'tag' => '',
         'name' => 'White Pepper',
         'description' => "",
@@ -621,7 +633,8 @@ $product = [
     ],
     [
         'id' => 11,
-        'image' => 'https://ratihberkahjaya.com/img/bg-img/abc_long_nutmeg.png',
+        'image' => $app_url . 'img/bg-img/abc_long_nutmeg.png',
+        'image_display' => $app_url . 'img/bg-img/abc_long_nutmeg-modified.png',
         'tag' => '',
         'name' => 'ABC Long Nutmeg',
         'description' => "",
@@ -631,7 +644,8 @@ $product = [
     ],
     [
         'id' => 12,
-        'image' => 'https://ratihberkahjaya.com/img/bg-img/fak_fak.png',
+        'image' => $app_url . 'img/bg-img/fak_fak.png',
+        'image_display' => $app_url . 'img/bg-img/fak_fak-modified.png',
         'tag' => '',
         'name' => 'Fak - Fak Long Nutmeg Flower',
         'description' => "",
@@ -641,7 +655,8 @@ $product = [
     ],
     [
         'id' => 13,
-        'image' => 'https://ratihberkahjaya.com/img/bg-img/butterfly_pea2.png',
+        'image' => $app_url . 'img/bg-img/butterfly_pea2.png',
+        'image_display' => $app_url . 'img/bg-img/butterfly_pea2-modified.png',
         'tag' => '',
         'name' => 'Butterfly Pea',
         'description' => "",
@@ -651,7 +666,8 @@ $product = [
     ],
     [
         'id' => 14,
-        'image' => 'https://ratihberkahjaya.com/img/bg-img/fak_fak_long.png',
+        'image' => $app_url . 'img/bg-img/fak_fak_long.png',
+        'image_display' => $app_url . 'img/bg-img/fak_fak_long-modified.png',
         'tag' => '',
         'name' => 'Fak - Fak Long Nutmeg',
         'description' => "",
@@ -661,7 +677,8 @@ $product = [
     ],
     [
         'id' => 15,
-        'image' => 'https://ratihberkahjaya.com/img/bg-img/places_seed.png',
+        'image' => $app_url . 'img/bg-img/places_seed.png',
+        'image_display' => $app_url . 'img/bg-img/places_seed-modified.png',
         'tag' => '',
         'name' => 'Places Seeds',
         'description' => "",
@@ -671,7 +688,8 @@ $product = [
     ],
     [
         'id' => 16,
-        'image' => 'https://ratihberkahjaya.com/img/bg-img/round_nutmeg_flower.png',
+        'image' => $app_url . 'img/bg-img/round_nutmeg_flower.png',
+        'image_display' => $app_url . 'img/bg-img/round_nutmeg_flower-modified.png',
         'tag' => '',
         'name' => 'Round Nutmeg Flower',
         'description' => "",
@@ -681,7 +699,8 @@ $product = [
     ],
     [
         'id' => 17,
-        'image' => 'https://ratihberkahjaya.com/img/bg-img/cinnamon.png',
+        'image' => $app_url . 'img/bg-img/cinnamon.png',
+        'image_display' => $app_url . 'img/bg-img/cinnamon-modified.png',
         'tag' => '',
         'name' => 'Cinnamon',
         'description' => "",
@@ -691,7 +710,8 @@ $product = [
     ],
     [
         'id' => 18,
-        'image' => 'https://ratihberkahjaya.com/img/bg-img/dry_vanilla.png',
+        'image' => $app_url . 'img/bg-img/dry_vanilla.png',
+        'image_display' => $app_url . 'img/bg-img/dry_vanilla-modified.png',
         'tag' => '',
         'name' => 'Dry Vanilla',
         'description' => "",
@@ -701,7 +721,8 @@ $product = [
     ],
     [
         'id' => 19,
-        'image' => 'https://ratihberkahjaya.com/img/bg-img/dry_butterfly.png',
+        'image' => $app_url . 'img/bg-img/dry_butterfly.png',
+        'image_display' => $app_url . 'img/bg-img/dry_butterfly-modified.png',
         'tag' => '',
         'name' => 'Dry Butterfly Pea',
         'description' => "",
@@ -711,7 +732,8 @@ $product = [
     ],
     [
         'id' => 20,
-        'image' => 'https://ratihberkahjaya.com/img/bg-img/saga_seeds.png',
+        'image' => $app_url . 'img/bg-img/saga_seeds.png',
+        'image_display' => $app_url . 'img/bg-img/saga_seeds-modified.png',
         'tag' => '',
         'name' => 'Saga Seeds',
         'description' => "",
@@ -721,14 +743,16 @@ $product = [
     ],
     [
         'id' => 21,
-        'image' => 'https://ratihberkahjaya.com/img/bg-img/betel_nut.png',
+        'image' => $app_url . 'img/bg-img/betel_nut.png',
+        'image_display' => $app_url . 'img/bg-img/betel_nut-modified.png',
         'tag' => '',
         'name' => 'Betel Nut',
         'price' => '$10.99'
     ],
     [
         'id' => 22,
-        'image' => 'https://ratihberkahjaya.com/img/bg-img/black_pepper.png',
+        'image' => $app_url . 'img/bg-img/black_pepper.png',
+        'image_display' => $app_url . 'img/bg-img/black_pepper-modified.png',
         'tag' => '',
         'name' => 'Black Pepper',
         'description' => "",
@@ -738,7 +762,8 @@ $product = [
     ],
     [
         'id' => 23,
-        'image' => 'https://ratihberkahjaya.com/img/bg-img/nutmeg_round.png',
+        'image' => $app_url . 'img/bg-img/nutmeg_round.png',
+        'image_display' => $app_url . 'img/bg-img/nutmeg_round-modified.png',
         'tag' => '',
         'name' => 'Nutmeg Round Skin',
         'description' => "",
@@ -748,7 +773,8 @@ $product = [
     ],
     [
         'id' => 24,
-        'image' => 'https://ratihberkahjaya.com/img/bg-img/banna_leaf.png',
+        'image' => $app_url . 'img/bg-img/banna_leaf.png',
+        'image_display' => $app_url . 'img/bg-img/banna_leaf-modified.png',
         'tag' => '',
         'name' => 'Banana Leaf',
         'description' => "",
@@ -758,7 +784,8 @@ $product = [
     ],
     [
         'id' => 25,
-        'image' => 'https://ratihberkahjaya.com/img/bg-img/broom_stick.png',
+        'image' => $app_url . 'img/bg-img/broom_stick.png',
+        'image_display' => $app_url . 'img/bg-img/broom_stick-modified.png',
         'tag' => '',
         'name' => 'Broom Stick',
         'description' => "",
@@ -768,7 +795,8 @@ $product = [
     ],
     [
         'id' => 26,
-        'image' => 'https://ratihberkahjaya.com/img/bg-img/cashew_crew.png',
+        'image' => $app_url . 'img/bg-img/cashew_crew.png',
+        'image_display' => $app_url . 'img/bg-img/cashew_crew-modified.png',
         'tag' => '',
         'name' => 'Cashew Crew',
         'description' => "",
@@ -778,7 +806,8 @@ $product = [
     ],
     [
         'id' => 27,
-        'image' => 'https://ratihberkahjaya.com/img/bg-img/stinky_bean.png',
+        'image' => $app_url . 'img/bg-img/stinky_bean.png',
+        'image_display' => $app_url . 'img/bg-img/stinky_bean-modified.png',
         'tag' => '',
         'name' => 'Stinky Bean',
         'description' => "",
@@ -788,7 +817,8 @@ $product = [
     ],
     [
         'id' => 28,
-        'image' => 'https://ratihberkahjaya.com/img/bg-img/elephant_ginger.png',
+        'image' => $app_url . 'img/bg-img/elephant_ginger.png',
+        'image_display' => $app_url . 'img/bg-img/elephant_ginger-modified.png',
         'tag' => '',
         'name' => 'Elephant Ginger',
         'description' => "",
@@ -798,7 +828,8 @@ $product = [
     ],
     [
         'id' => 29,
-        'image' => 'https://ratihberkahjaya.com/img/bg-img/laos_lives.png',
+        'image' => $app_url . 'img/bg-img/laos_lives.png',
+        'image_display' => $app_url . 'img/bg-img/laos_lives-modified.png',
         'tag' => '',
         'name' => 'Laos Lives',
         'description' => "",
@@ -808,7 +839,8 @@ $product = [
     ],
     [
         'id' => 30,
-        'image' => 'https://ratihberkahjaya.com/img/bg-img/red_ginger.png',
+        'image' => $app_url . 'img/bg-img/red_ginger.png',
+        'image_display' => $app_url . 'img/bg-img/red_ginger-modified.png',
         'tag' => '',
         'name' => 'Red Ginger',
         'description' => "",
@@ -818,7 +850,8 @@ $product = [
     ],
     [
         'id' => 31,
-        'image' => 'https://ratihberkahjaya.com/img/bg-img/emprit_ginger.png',
+        'image' => $app_url . 'img/bg-img/emprit_ginger.png',
+        'image_display' => $app_url . 'img/bg-img/emprit_ginger-modified.png',
         'tag' => '',
         'name' => 'Emprit Ginger',
         'description' => "",
@@ -828,7 +861,8 @@ $product = [
     ],
     [
         'id' => 32,
-        'image' => 'https://ratihberkahjaya.com/img/bg-img/peanuts.png',
+        'image' => $app_url . 'img/bg-img/peanuts.png',
+        'image_display' => $app_url . 'img/bg-img/peanuts-modified.png',
         'tag' => '',
         'name' => 'Peanuts',
         'description' => "",
