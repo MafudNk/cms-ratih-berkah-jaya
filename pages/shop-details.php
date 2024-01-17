@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include '../component/head.php'; ?>
+<?php include '../component/head.php'; 
+include __DIR__ . '/../config/config.php'; 
+?>
 
 <body>
     <!-- Preloader -->
@@ -34,8 +36,8 @@
                 <div class="col-12">
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="#"><i class="fa fa-home"></i> Home</a></li>
-                            <li class="breadcrumb-item"><a href="#">Product</a></li>
+                            <li class="breadcrumb-item"><a href=<?php echo "$app_url"; ?>><i class="fa fa-home"></i> Home</a></li>
+                            <li class="breadcrumb-item"><a href=<?php echo "$shop"; ?>>Product</a></li>
                             <li class="breadcrumb-item active" aria-current="page">Product Details</li>
                         </ol>
                     </nav>
