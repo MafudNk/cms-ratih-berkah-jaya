@@ -21,7 +21,7 @@ include __DIR__ . '/../config/config.php';
                     <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="100ms">
                         <!-- Product Image -->
                         <div class="product-img">
-                            <img src="<?php echo "$app_url"; ?>img/bg-img/chilli_jamu.png" alt="">
+                            <img src="<?php echo "$app_url"; ?>img/bg-img/chilli_jamu-modified.png" alt="">
                             <div class="product-tag">
                                 <a href="#">Hot</a>
                             </div>
@@ -41,7 +41,7 @@ include __DIR__ . '/../config/config.php';
                     <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="200ms">
                         <!-- Product Image -->
                         <div class="product-img">
-                            <img src="<?php echo "$app_url"; ?>img/bg-img/cardamom.png" alt="">
+                            <img src="<?php echo "$app_url"; ?>img/bg-img/cardamom-modified.png" alt="">
                         </div>
                         <!-- Product Info -->
                         <div class="product-info mt-15 text-center">
@@ -58,7 +58,7 @@ include __DIR__ . '/../config/config.php';
                     <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="300ms">
                         <!-- Product Image -->
                         <div class="product-img">
-                            <img src="<?php echo "$app_url"; ?>img/bg-img/mung_bean.png" alt="">
+                            <img src="<?php echo "$app_url"; ?>img/bg-img/mung_bean-modified.png" alt="" >
                         </div>
                         <!-- Product Info -->
                         <div class="product-info mt-15 text-center">
@@ -75,7 +75,7 @@ include __DIR__ . '/../config/config.php';
                     <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="400ms">
                         <!-- Product Image -->
                         <div class="product-img">
-                            <img src="<?php echo "$app_url"; ?>img/bg-img/abc_nutmeg.png" alt="">
+                            <img src="<?php echo "$app_url"; ?>img/bg-img/abc_nutmeg-modified.png" alt="">
                         </div>
                         <!-- Product Info -->
                         <div class="product-info mt-15 text-center">
