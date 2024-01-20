@@ -28,10 +28,7 @@ include __DIR__ . '/../config/config.php';
                         </div>
                         <!-- Product Info -->
                         <div class="product-info mt-15 text-center">
-                            <a href="<?php echo "$app_url"; ?>shop-details.html">
                                 <p>Chilli Jamu</p>
-                            </a>
-                            <h6>$10.99</h6>
                         </div>
                     </div>
                 </div>
@@ -45,10 +42,7 @@ include __DIR__ . '/../config/config.php';
                         </div>
                         <!-- Product Info -->
                         <div class="product-info mt-15 text-center">
-                            <a href="shop-details.html">
                                 <p>Cardamom</p>
-                            </a>
-                            <h6>$10.99</h6>
                         </div>
                     </div>
                 </div>
@@ -62,10 +56,7 @@ include __DIR__ . '/../config/config.php';
                         </div>
                         <!-- Product Info -->
                         <div class="product-info mt-15 text-center">
-                            <a href="shop-details.html">
                                 <p>Mung Beans</p>
-                            </a>
-                            <h6>$10.99</h6>
                         </div>
                     </div>
                 </div>
@@ -82,7 +73,6 @@ include __DIR__ . '/../config/config.php';
                             <a href="shop-details.html">
                                 <p>ABC Nutmeg</p>
                             </a>
-                            <h6>$10.99</h6>
                         </div>
                     </div>
                 </div>

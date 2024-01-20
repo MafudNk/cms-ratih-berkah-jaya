@@ -77,7 +77,6 @@ include __DIR__ . '/../config/config.php';
                                             <a href="shop-details.php?id=<?php print_r($value['id']); ?>">
                                                 <p><?php print_r($value['name']); ?></p>
                                             </a>
-                                            <h6><?php print_r($value['price']); ?></h6>
                                         </div>
                                     </div>
                                 </div>
