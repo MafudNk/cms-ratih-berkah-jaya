@@ -88,7 +88,6 @@ include __DIR__ . '/../config/config.php';
                     <div class="col-12 col-md-6">
                         <div class="single_product_desc">
                             <h4 class="title"><?php print_r($product[$index]['name']); ?></h4>
-                            <h4 class="price"><?php print_r($product[$index]['price']); ?></h4>
                             <div class="short_overview">
                                 <p><?php print_r($product[$index]['information']); ?></p>
                             </div>
