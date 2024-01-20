@@ -32,14 +32,17 @@ $mail->Password = "wclflyhmloxvwzhu";
 $mail->setFrom('sratihberkah@gmail.com', 'First Last');
 //Alamat email alternatif balasan
 //Email tujuan
-$mail->addAddress('mafudmr5@gmail.com', 'Website Supported');
+$mail->addAddress('helpdesk@ratihberkahjaya.com', 'Website Supported');
 //Subject email
 $mail->Subject = 'From Website';
 //Membaca isi pesan HTML dari file eksternal, mengkonversi gambar yang di embed,
 //Mengubah HTML menjadi basic plain-text
 //  $mail->msgHTML(file_get_contents('contents.html'), dirname(__FILE__));
 //Replace plain text body dengan cara manual
-$mail->Body = "email : ". $_POST['email'] . "\n message : " . $_POST['message'];
+$mail->Body = "email : ". $_POST['email'] . 
+"\n name : ". $_POST['name'] . 
+"\n subject : ". $_POST['subject'] . 
+"\n message : " . $_POST['message'];
 $mail->AltBody = '';
 //Attach file gambar
 //  $mail->addAttachment('images/phpmailer_mini.png');
