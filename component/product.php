@@ -1,86 +1,96 @@
-<?php 
-include __DIR__ . '/../config/config.php'; 
+<?php
+include __DIR__ . '/../config/config.php';
 ?>
 
 <section class="new-arrivals-products-area bg-gray section-padding-100">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <!-- Section Heading -->
-                    <div class="section-heading text-center">
-                        <h2>NEW ARRIVALS</h2>
-                        <p>We have the latest products, it must be exciting for you</p>
-                    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <!-- Section Heading -->
+                <div class="section-heading text-center">
+                    <h2>NEW ARRIVALS</h2>
+                    <p>We have the latest products, it must be exciting for you</p>
                 </div>
             </div>
+        </div>
 
-            <div class="row">
+        <div class="row">
 
-                <!-- Single Product Area -->
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="100ms">
+            <!-- Single Product Area -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="100ms">
+                    <a href="<?php echo "$app_url"; ?>/pages/shop-details.php?id=1">
                         <!-- Product Image -->
                         <div class="product-img">
+
                             <img src="<?php echo "$app_url"; ?>img/bg-img/chilli_jamu-modified.png" alt="">
                             <div class="product-tag">
                                 <a href="#">Hot</a>
                             </div>
+
                         </div>
                         <!-- Product Info -->
                         <div class="product-info mt-15 text-center">
-                                <p>Chilli Jamu</p>
+                            <p>Chilli Jamu</p>
                         </div>
-                    </div>
+                    </a>
                 </div>
+            </div>
 
-                <!-- Single Product Area -->
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="200ms">
+            <!-- Single Product Area -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="200ms">
+                    <a href="<?php echo "$app_url"; ?>/pages/shop-details.php?id=2">
                         <!-- Product Image -->
                         <div class="product-img">
                             <img src="<?php echo "$app_url"; ?>img/bg-img/cardamom-modified.png" alt="">
                         </div>
                         <!-- Product Info -->
                         <div class="product-info mt-15 text-center">
-                                <p>Cardamom</p>
+                            <p>Cardamom</p>
                         </div>
-                    </div>
+                    </a>
                 </div>
+            </div>
 
-                <!-- Single Product Area -->
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="300ms">
+            <!-- Single Product Area -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="300ms">
+                    <a href="<?php echo "$app_url"; ?>/pages/shop-details.php?id=3">
                         <!-- Product Image -->
                         <div class="product-img">
-                            <img src="<?php echo "$app_url"; ?>img/bg-img/mung_bean-modified.png" alt="" >
+                            <img src="<?php echo "$app_url"; ?>img/bg-img/mung_bean-modified.png" alt="">
                         </div>
                         <!-- Product Info -->
                         <div class="product-info mt-15 text-center">
-                                <p>Mung Beans</p>
+                            <p>Mung Beans</p>
                         </div>
-                    </div>
+                    </a>
                 </div>
+            </div>
 
-                <!-- Single Product Area -->
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="400ms">
+            <!-- Single Product Area -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="400ms">
+                    <a href="<?php echo "$app_url"; ?>/pages/shop-details.php?id=4">
                         <!-- Product Image -->
                         <div class="product-img">
                             <img src="<?php echo "$app_url"; ?>img/bg-img/abc_nutmeg-modified.png" alt="">
                         </div>
                         <!-- Product Info -->
                         <div class="product-info mt-15 text-center">
-                            <a href="shop-details.html">
-                                <p>ABC Nutmeg</p>
-                            </a>
+
+                            <p>ABC Nutmeg</p>
+
                         </div>
-                    </div>
+                    </a>
                 </div>
-
-                <div class="col-12 text-center">
-                    <a href=<?php echo "$shop"; ?> class="btn alazea-btn">View All</a>
-                </div>
-
             </div>
+
+            <div class="col-12 text-center">
+                <a href=<?php echo "$shop"; ?> class="btn alazea-btn">View All</a>
+            </div>
+
         </div>
-    </section>
+    </div>
+</section>

@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include '../component/head.php'; 
-include __DIR__ . '/../config/config.php'; 
+<?php include '../component/head.php';
+include __DIR__ . '/../config/config.php';
 ?>
 
 <body>
@@ -46,7 +46,7 @@ include __DIR__ . '/../config/config.php';
     <!-- ##### Shop Area Start ##### -->
     <section class="shop-page section-padding-0-100">
         <div class="container">
-           <!-- data dummy shop -->
+            <!-- data dummy shop -->
             <div class="row">
                 <!-- Sidebar Area -->
                 <div class="col-md-2 col-lg-2">
@@ -65,19 +65,21 @@ include __DIR__ . '/../config/config.php';
                                 <!-- Single Product Area -->
                                 <div class="col-12 col-sm-6 col-lg-4">
                                     <div class="single-product-area mb-50">
-                                        <!-- Product Image -->
-                                        <div class="product-img">
-                                            <img src=<?php print_r($value['image_display']); ?> alt="">
-                                            <!-- Product Tag -->
-                                            <?php print_r($value['tag']); ?>
+                                        <a href="shop-details.php?id=<?php print_r($value['id']); ?>">
+                                            <!-- Product Image -->
+                                            <div class="product-img">
+                                                <img src=<?php print_r($value['image_display']); ?> alt="">
+                                                <!-- Product Tag -->
+                                                <?php print_r($value['tag']); ?>
 
-                                        </div>
-                                        <!-- Product Info -->
-                                        <div class="product-info mt-15 text-center">
-                                            <a href="shop-details.php?id=<?php print_r($value['id']); ?>">
+                                            </div>
+                                            <!-- Product Info -->
+                                            <div class="product-info mt-15 text-center">
+
                                                 <p><?php print_r($value['name']); ?></p>
-                                            </a>
-                                        </div>
+                                            </div>
+
+                                        </a>
                                     </div>
                                 </div>
                             <?php }
@@ -86,7 +88,7 @@ include __DIR__ . '/../config/config.php';
                         </div>
 
                         <!-- Pagination -->
-                        
+
                     </div>
                 </div>
             </div>
