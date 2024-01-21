@@ -83,7 +83,7 @@ include __DIR__ . '/../config/config.php';
                     </div>
                     <!-- Contact Form Area -->
                     <div class="contact-form-area mb-100">
-                        <form action="#" method="post">
+                        <form action="<?php echo "$app_url"; ?>/send_personal.php" method="post">
                             <div class="row">
                                 <div class="col-12 col-md-6">
                                     <div class="form-group">

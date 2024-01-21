@@ -12,7 +12,7 @@ include __DIR__ . '/../config/config.php';
                         <div class="top-header-content d-flex align-items-center justify-content-between">
                             <!-- Top Header Content -->
                             <div class="top-header-meta">
-                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="support@ratihberkahjaya.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> <span>Email: support@ratihberkahjaya.com</span></a>
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="helpdesk@ratihberkahjaya.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> <span>Email: support@ratihberkahjaya.com</span></a>
                                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="+62 821-3199-5992"><i class="fa fa-phone" aria-hidden="true"></i> <span>Call Us: +62 821-3199-5992</span></a>
                             </div>
 
