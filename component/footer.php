@@ -37,8 +37,9 @@ include __DIR__ . '/../config/config.php';
                                 <p><span>Address:</span> Gurang Kulon, 002/002,
                                                         Guranganyar, Cerme-Gresik,
                                                         East Java, Indonesia</p>
-                                <p><span>Phone:</span> +62 821-3199-5992</p>
-                                <p><span>Email:</span> pt.ratihberkahjaya@gmail.com</p>
+                                <p><span>Mobile Phone:</span> +62 821-3199-5992</p>
+                                <p><span>Phone:</span>03158285707</p>
+                                <p><span>Email:</span>helpdesk@ratihberkahjaya.com</p>
                             </div>
                         </div>
                     </div>

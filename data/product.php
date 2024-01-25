@@ -9,53 +9,53 @@ $product = [
         'image' => $app_url . 'img/bg-img/chilli_jamu.png',
         'image_display' => $app_url . 'img/bg-img/chilli_jamu-modified.png',
         'tag' => '<div class="product-tag"> <a href="#">Hot</a> </div>',
-        'name' => 'Chilli Jamu',
-        'information' => "Chilli Jamu is an innovative product that combines the spicy taste of chili with the properties of traditional Indonesian herbal medicine. Jamu itself is a herbal drink that has long been known in Indonesian culture as a traditional concoction for health and body balance.",
-        'description' => "Chilli Jamu is an innovative product that combines the spicy taste of chilies with the properties of traditional Indonesian Jamu. Jamu itself is a herbal drink that has long been known in Indonesian culture as a traditional concoction for health and body balance.
+        'name' => 'Java Long Pepper',
+        'information' => "Java Long Pepper is an innovative product that combines the spicy taste of chili with the properties of traditional Indonesian herbal medicine. Jamu itself is a herbal drink that has long been known in Indonesian culture as a traditional concoction for health and body balance.",
+        'description' => "Java Long Pepper is an innovative product that combines the spicy taste of chilies with the properties of traditional Indonesian Jamu. Jamu itself is a herbal drink that has long been known in Indonesian culture as a traditional concoction for health and body balance.
 
         Product Description:
         
         High Quality Main Ingredients:
-        Chilli Jamu is made from carefully selected chilies to ensure optimal quality and taste. Other ingredients used are also carefully selected, including spices and traditional herbal ingredients that have been proven to have health benefits.
+        Java Long Pepper is made from carefully selected chilies to ensure optimal quality and taste. Other ingredients used are also carefully selected, including spices and traditional herbal ingredients that have been proven to have health benefits.
         
         Unique Combination of Spicy Flavor and Health:
         This product offers a unique combination of the spicy taste of chili and the health benefits of Jamu. The spicy taste provides a delicious sensation and tantalizes the taste buds, while the herbal ingredients provide health benefits that have been known since ancient times.
         
         No Harmful Chemicals:
-        Chilli Jamu is produced using environmentally friendly production methods and without dangerous chemicals. This makes it a safe and healthy option to enjoy without worrying about negative side effects.
+        Java Long Pepper is produced using environmentally friendly production methods and without dangerous chemicals. This makes it a safe and healthy option to enjoy without worrying about negative side effects.
         
         Practical and Attractive Packaging:
         This product is packaged in practical and attractive packaging, making it easy for consumers to carry and consume it anywhere. The attractive packaging design also reflects the premium quality of this product.
         
         Can be consumed directly or combined:
-        Chilli Jamu can be consumed directly as a refreshing drink or mixed with other drinks, such as warm water or tea, according to individual tastes. This provides flexibility to consumers to enjoy these products according to their preferences.
+        Java Long Pepper can be consumed directly as a refreshing drink or mixed with other drinks, such as warm water or tea, according to individual tastes. This provides flexibility to consumers to enjoy these products according to their preferences.
         
         Health and Balance Promotion:
-        Apart from being a refreshing drink, Chilli Jamu is also known as a drink that promotes health and body balance. The traditional properties of herbal ingredients can provide additional support for overall health.
+        Apart from being a refreshing drink, Java Long Pepper is also known as a drink that promotes health and body balance. The traditional properties of herbal ingredients can provide additional support for overall health.
         
-        Chilli Jamu is an attractive alternative for those looking for a unique combination of an alluring spicy taste and the traditional properties of Indonesian Jamu to support a healthy and balanced lifestyle.",
-        'additional_information' => "Additional information about Chilli Jamu:
+        Java Long Pepper is an attractive alternative for those looking for a unique combination of an alluring spicy taste and the traditional properties of Indonesian Jamu to support a healthy and balanced lifestyle.",
+        'additional_information' => "Additional information about Java Long Pepper:
 
             Flavor Variations:
-            Some Chilli Jamu manufacturers may offer flavor variations, such as the addition of special spices or combinations with certain fruits. This gives consumers more options to customize flavors according to their preferences.
+            Some Java Long Pepper manufacturers may offer flavor variations, such as the addition of special spices or combinations with certain fruits. This gives consumers more options to customize flavors according to their preferences.
             
             Nutritional Content:
-            As a herbal drink, Chilli Jamu may contain a variety of beneficial nutrients depending on the additional ingredients used. Some formulations may include ingredients rich in antioxidants, vitamins, and minerals.
+            As a herbal drink, Java Long Pepper may contain a variety of beneficial nutrients depending on the additional ingredients used. Some formulations may include ingredients rich in antioxidants, vitamins, and minerals.
             
             Traditional Usage:
-            Chilli Jamu can be inspired by traditional Indonesian herbs that have been used for health for centuries. Some formulas may combine ingredients known in traditional medicine to provide additional benefits.
+            Java Long Pepper can be inspired by traditional Indonesian herbs that have been used for health for centuries. Some formulas may combine ingredients known in traditional medicine to provide additional benefits.
             
             Comsumption Pattern:
-            Although Chilli Jamu can be drunk at any time, some people may prefer to consume it at certain times, such as in the morning as a refreshing drink or in the afternoon as a fatigue reliever. This can be tailored to individual habits and preferences.
+            Although Java Long Pepper can be drunk at any time, some people may prefer to consume it at certain times, such as in the morning as a refreshing drink or in the afternoon as a fatigue reliever. This can be tailored to individual habits and preferences.
             
             Organic or Halal Certification:
             Some manufacturers may emphasize organic or halal certification on their products, appealing to consumers who seek products with certain standards or who have special dietary preferences.
             
             Health and Fitness Marketing:
-            Chilli Jamu is often marketed as a drink that supports health and fitness. Marketing campaigns may emphasize the health and body-balancing benefits that a combination of chili peppers and herbal ingredients can provide.
+            Java Long Pepper is often marketed as a drink that supports health and fitness. Marketing campaigns may emphasize the health and body-balancing benefits that a combination of chili peppers and herbal ingredients can provide.
             
             Recipes and Usage Ideas:
-            Chilli Jamu manufacturers or brands may share recipes or additional use ideas, including how to mix the drink with other ingredients or how to integrate it into cooking.
+            Java Long Pepper manufacturers or brands may share recipes or additional use ideas, including how to mix the drink with other ingredients or how to integrate it into cooking.
             
             Customer Testimonials:
             Some brands may have customer reviews or testimonials sharing their experiences with the product. This can provide direct insight into customer satisfaction and how the product can be integrated into everyday lifestyles.
@@ -63,7 +63,7 @@ $product = [
             Eco-Friendly Packing:
             Some manufacturers may emphasize environmentally friendly packaging, such as using recycled packaging or reducing plastic waste, to appeal to consumers who care about environmental impact.
             
-            With this additional information, consumers can better understand the Chilli Jamu variety and choose products that suit their preferences and needs.",
+            With this additional information, consumers can better understand the Java Long Pepper variety and choose products that suit their preferences and needs.",
         'price' => '$10.99'
     ],
     [
@@ -296,7 +296,7 @@ $product = [
         'image' => $app_url . 'img/bg-img/dry_laos.png',
         'image_display' => $app_url . 'img/bg-img/dry_laos-modified.png',
         'tag' => '',
-        'name' => 'Dry Laos',
+        'name' => 'Dried Galangal',
         'description' => " Dry Galangal Description: 
 
          Dry galangal  refers to the dried form of the rhizome of the galangal plant ( Alpinia galanga ). Galangal is a rhizomatous herb that belongs to the ginger family (Zingiberaceae) and is native to Southeast Asia. Here is a detailed description of dry galangal:
@@ -591,7 +591,7 @@ $product = [
         'image' => $app_url . 'img/bg-img/clove.png',
         'image_display' => $app_url . 'img/bg-img/clove-modified.png',
         'tag' => '',
-        'name' => 'Clove',
+        'name' => 'Cloves',
         'description' => "",
         'additional_information' => "",
         'information' => "",
@@ -603,7 +603,7 @@ $product = [
         'image' => $app_url . 'img/bg-img/kemukus.png',
         'image_display' => $app_url . 'img/bg-img/kemukus-modified.png',
         'tag' => '',
-        'name' => 'Cubeb',
+        'name' => 'Javanese Pepper',
         'description' => "",
         'additional_information' => "",
         'information' => "",
@@ -636,7 +636,7 @@ $product = [
         'image' => $app_url . 'img/bg-img/abc_long_nutmeg.png',
         'image_display' => $app_url . 'img/bg-img/abc_long_nutmeg-modified.png',
         'tag' => '',
-        'name' => 'ABC Long Nutmeg',
+        'name' => 'Long ABC Nutmeg',
         'description' => "",
         'additional_information' => "",
         'information' => "",
@@ -658,7 +658,7 @@ $product = [
         'image' => $app_url . 'img/bg-img/butterfly_pea2.png',
         'image_display' => $app_url . 'img/bg-img/butterfly_pea2-modified.png',
         'tag' => '',
-        'name' => 'Butterfly Pea',
+        'name' => 'Butterfly Pea Flower',
         'description' => "",
         'additional_information' => "",
         'information' => "",
@@ -669,7 +669,7 @@ $product = [
         'image' => $app_url . 'img/bg-img/fak_fak_long.png',
         'image_display' => $app_url . 'img/bg-img/fak_fak_long-modified.png',
         'tag' => '',
-        'name' => 'Fak - Fak Long Nutmeg',
+        'name' => 'Long Fak - Fak Nutmeg',
         'description' => "",
         'additional_information' => "",
         'information' => "",
@@ -680,7 +680,7 @@ $product = [
         'image' => $app_url . 'img/bg-img/places_seed.png',
         'image_display' => $app_url . 'img/bg-img/places_seed-modified.png',
         'tag' => '',
-        'name' => 'Places Seeds',
+        'name' => 'Malva Nut',
         'description' => "",
         'additional_information' => "",
         'information' => "",
@@ -724,7 +724,7 @@ $product = [
         'image' => $app_url . 'img/bg-img/dry_butterfly.png',
         'image_display' => $app_url . 'img/bg-img/dry_butterfly-modified.png',
         'tag' => '',
-        'name' => 'Dry Butterfly Pea',
+        'name' => 'Dried Butterfly Pea Flower',
         'description' => "",
         'additional_information' => "",
         'information' => "",
@@ -735,7 +735,7 @@ $product = [
         'image' => $app_url . 'img/bg-img/saga_seeds.png',
         'image_display' => $app_url . 'img/bg-img/saga_seeds-modified.png',
         'tag' => '',
-        'name' => 'Saga Seeds',
+        'name' => 'Saga Seed',
         'description' => "",
         'additional_information' => "",
         'information' => "",
@@ -746,7 +746,7 @@ $product = [
         'image' => $app_url . 'img/bg-img/betel_nut.png',
         'image_display' => $app_url . 'img/bg-img/betel_nut-modified.png',
         'tag' => '',
-        'name' => 'Betel Nut',
+        'name' => 'Betel Nuts',
         'price' => '$10.99'
     ],
     [
@@ -765,7 +765,7 @@ $product = [
         'image' => $app_url . 'img/bg-img/nutmeg_round.png',
         'image_display' => $app_url . 'img/bg-img/nutmeg_round-modified.png',
         'tag' => '',
-        'name' => 'Nutmeg Round Skin',
+        'name' => 'Round Nutmeg Skin',
         'description' => "",
         'additional_information' => "",
         'information' => "",
@@ -787,7 +787,7 @@ $product = [
         'image' => $app_url . 'img/bg-img/broom_stick.png',
         'image_display' => $app_url . 'img/bg-img/broom_stick-modified.png',
         'tag' => '',
-        'name' => 'Broom Stick',
+        'name' => 'Broomstick',
         'description' => "",
         'additional_information' => "",
         'information' => "",
@@ -809,7 +809,7 @@ $product = [
         'image' => $app_url . 'img/bg-img/stinky_bean.png',
         'image_display' => $app_url . 'img/bg-img/stinky_bean-modified.png',
         'tag' => '',
-        'name' => 'Stinky Bean',
+        'name' => 'Stink Beans',
         'description' => "",
         'additional_information' => "",
         'information' => "",
@@ -831,7 +831,7 @@ $product = [
         'image' => $app_url . 'img/bg-img/laos_lives.png',
         'image_display' => $app_url . 'img/bg-img/laos_lives-modified.png',
         'tag' => '',
-        'name' => 'Laos Lives',
+        'name' => 'Fresh Galangal',
         'description' => "",
         'additional_information' => "",
         'information' => "",
@@ -853,7 +853,7 @@ $product = [
         'image' => $app_url . 'img/bg-img/emprit_ginger.png',
         'image_display' => $app_url . 'img/bg-img/emprit_ginger-modified.png',
         'tag' => '',
-        'name' => 'Emprit Ginger',
+        'name' => 'Java Ginger',
         'description' => "",
         'additional_information' => "",
         'information' => "",
@@ -864,7 +864,7 @@ $product = [
         'image' => $app_url . 'img/bg-img/peanuts.png',
         'image_display' => $app_url . 'img/bg-img/peanuts-modified.png',
         'tag' => '',
-        'name' => 'Peanuts',
+        'name' => 'Groundnut',
         'description' => "",
         'additional_information' => "",
         'information' => "",

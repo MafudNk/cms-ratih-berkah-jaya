@@ -22,7 +22,7 @@ include __DIR__ . '/../config/config.php';
     <div class="breadcrumb-area">
         <!-- Top Breadcrumb Area -->
         <div class="top-breadcrumb-area bg-img bg-overlay d-flex align-items-center justify-content-center" style="background-image: url(<?php echo "$app_url"; ?>img/bg-img/bg1.jpg);">
-            <h2>Contact US</h2>
+            <h2>Get More Products</h2>
         </div>
 
         <div class="container">
@@ -31,7 +31,7 @@ include __DIR__ . '/../config/config.php';
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href=<?php echo "$app_url"; ?>><i class="fa fa-home"></i> Home</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Contact</li>
+                            <li class="breadcrumb-item active" aria-current="page">More Products</li>
                         </ol>
                     </nav>
                 </div>
@@ -40,47 +40,21 @@ include __DIR__ . '/../config/config.php';
     </div>
     <!-- ##### Breadcrumb Area End ##### -->
 
-    <!-- ##### Contact Area Info Start ##### -->
-    <div class="contact-area-info section-padding-0-100">
-        <div class="container">
-            <div class="row align-items-center justify-content-between">
-                <!-- Contact Thumbnail -->
-                <div class="col-12 col-md-6">
-                    <div class="contact--thumbnail">
-                        <img src="<?php echo "$app_url"; ?>img/core-img/logo-removebg-preview.png" alt="">
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-5">
-                    <!-- Section Heading -->
-                    <div class="section-heading">
-                        <h2>CONTACT US</h2>
-                        <p>We are improving our services to serve you better.</p>
-                    </div>
-                    <!-- Contact Information -->
-                    <div class="contact-information">
-                        <p><span>Address:</span> Gurang Kulon, 002/002,
-                            Guranganyar, Cerme-Gresik,
-                            East Java, Indonesia</p>
-                            <p><span>Mobile Phone:</span> +62 821-3199-5992</p>
-                            <p><span>Phone:</span>03158285707</p>
-                        <p><span>Email:</span> pt.ratihberkahjaya@gmail.com</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- ##### Contact Area Info End ##### -->
 
     <!-- ##### Contact Area Start ##### -->
     <section class="contact-area">
         <div class="container">
             <div class="row align-items-center justify-content-between">
-                <div class="col-12 col-lg-5">
+                    <div class="col-12 col-md-6">
+                            <div class="contact--thumbnail">
+                                <img src="<?php echo "$app_url"; ?>img/core-img/logo-removebg-preview.png" alt="">
+                            </div>
+                    </div>
+                    <div class="col-12 col-lg-5">
                     <!-- Section Heading -->
                     <div class="section-heading">
-                        <h2>GET IN TOUCH</h2>
-                        <p>Send us a message, we will call back later</p>
+                        <h2>MORE PRODUCTS</h2>
+                        <p>If you would like to inquire about other products, please email us. We will get back to you shortly.</p>
                     </div>
                     <!-- Contact Form Area -->
                     <div class="contact-form-area mb-100">
@@ -111,12 +85,6 @@ include __DIR__ . '/../config/config.php';
                                 </div>
                             </div>
                         </form>
-                    </div>
-                </div>
-
-                <div class="col-12 col-lg-6">
-                    <!-- Google Maps -->
-                    <div class="map-area mb-100"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7915.889731339246!2d112.52946444034615!3d-7.247115521037269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78017ac9262969%3A0x6190595bb741ff34!2sGurang%20Kulon%2C%20Guranganyar%2C%20Cerme%2C%20Gresik%20Regency%2C%20East%20Java!5e0!3m2!1sen!2sid!4v1705407224329!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>

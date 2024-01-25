@@ -1,7 +1,7 @@
 <section class="about-us-area section-padding-100-0">
         <div class="container">
             <div class="row justify-content-between">
-                <div class="col-12 col-lg-5">
+                <div class="col-20 col-lg-5">
                     <!-- Section Heading -->
                     <div class="section-heading">
                         <h2>ABOUT US</h2>
@@ -10,9 +10,9 @@
                     <p>At Ratih Berkah Jaya, we take pride in being a distinguished player in the agricultural produce trading sector, specializing in the export of high-quality spices. Our journey is rooted in a commitment to providing not just products but experiences that resonate with our customers.</p>
 
                     <!-- Progress Bar Content Area -->
-                    <div class="alazea-progress-bar mb-50">
-                        <!-- Single Progress Bar -->
-                        <div class="single_progress_bar">
+                    <!-- <div class="alazea-progress-bar mb-50">
+                        Single Progress Bar -->
+                        <!-- <div class="single_progress_bar">
                             <p>Cardanom</p>
                             <div id="bar1" class="barfiller">
                                 <div class="tipWrap">
@@ -20,9 +20,9 @@
                                 </div>
                                 <span class="fill" data-percentage="80"></span>
                             </div>
-                        </div>
+                        </div> -->
                         <!-- Single Progress Bar -->
-                        <div class="single_progress_bar">
+                        <!-- <div class="single_progress_bar">
                             <p>Chili Jamu</p>
                             <div id="bar2" class="barfiller">
                                 <div class="tipWrap">
@@ -30,7 +30,7 @@
                                 </div>
                                 <span class="fill" data-percentage="85"></span>
                             </div>
-                        </div>
+                        </div> -->
 
                         <!-- Single Progress Bar -->
                         <!-- <div class="single_progress_bar">
@@ -44,7 +44,7 @@
                         </div> -->
 
                         <!-- Single Progress Bar -->
-                        <div class="single_progress_bar">
+                        <!-- <div class="single_progress_bar">
                             <p>Abc Nutmeg</p>
                             <div id="bar4" class="barfiller">
                                 <div class="tipWrap">
@@ -52,7 +52,7 @@
                                 </div>
                                 <span class="fill" data-percentage="80"></span>
                             </div>
-                        </div>
+                        </div> -->
                         <!-- Single Progress Bar -->
                         <!-- <div class="single_progress_bar">
                             <p>Variegata</p>
@@ -83,7 +83,7 @@
                                 <span class="fill" data-percentage="70"></span>
                             </div>
                         </div> -->
-                    </div>
+                    <!-- </div> -->
                 </div>
 
                 <div class="col-12 col-lg-6">
