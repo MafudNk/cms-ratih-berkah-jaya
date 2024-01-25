@@ -7,7 +7,7 @@
                         <h2>ABOUT US</h2>
                         <p>To be a global leader in the export of premium spices, recognized for authenticity, quality, and sustainable practices.</p>
                     </div>
-                    <p>At Ratih Berkah Jaya, we take pride in being a distinguished player in the agricultural produce trading sector, specializing in the export of high-quality spices. Our journey is rooted in a commitment to providing not just products but experiences that resonate with our customers.</p>
+                    <p>At Ratih Berkah Jaya, we take pride in being a leading player in the agricultural products trading sector, specializing in the export of high quality spices. Our journey is rooted in a commitment to provide not only products but also experiences that resonate with our customers.</p>
 
                     <!-- Progress Bar Content Area -->
                     <!-- <div class="alazea-progress-bar mb-50">
