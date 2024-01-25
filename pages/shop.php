@@ -86,6 +86,9 @@ include __DIR__ . '/../config/config.php';
                             ?>
 
                         </div>
+                        <div class="col-12 text-center">
+                            <a href=<?php echo "$more"; ?> class="btn alazea-btn">View More Product</a>
+                         </div>
 
                         <!-- Pagination -->
 

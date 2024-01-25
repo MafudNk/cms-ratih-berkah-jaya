@@ -8,8 +8,8 @@ include __DIR__ . '/../config/config.php';
             <div class="col-12">
                 <!-- Section Heading -->
                 <div class="section-heading text-center">
-                    <h2>NEW ARRIVALS</h2>
-                    <p>We have the latest products, it must be exciting for you</p>
+                    <h2>BEST SELLER</h2>
+                    <p>We have the best seller products, it must be exciting for you</p>
                 </div>
             </div>
         </div>

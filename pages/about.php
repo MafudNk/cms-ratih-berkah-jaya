@@ -50,12 +50,12 @@ include __DIR__ . '/../config/config.php';
                         <h2>ABOUT US</h2>
                         <p>To be a global leader in the export of premium spices, recognized for authenticity, quality, and sustainable practices.</p>
                     </div>
-                    <p>At Ratih Berkah Jaya, we take pride in being a distinguished player in the agricultural produce trading sector, specializing in the export of high-quality spices. Our journey is rooted in a commitment to providing not just products but experiences that resonate with our customers.</p>
+                    <p>At Ratih Berkah Jaya, we take pride in being a leading player in the agricultural products trading sector, specializing in the export of high quality spices. Our journey is rooted in a commitment to provide not only products but also experiences that resonate with our customers.</p>
 
                     <!-- Progress Bar Content Area -->
-                    <div class="alazea-progress-bar mb-50">
+                    <!-- <div class="alazea-progress-bar mb-50"> -->
                         <!-- Single Progress Bar ganti warna fill di active.js -->
-                        <div class="single_progress_bar">
+                        <!-- <div class="single_progress_bar">
                             <p>Abc Nutmeg</p>
                             <div id="bar4" class="barfiller">
                                 <div class="tipWrap">
@@ -63,10 +63,10 @@ include __DIR__ . '/../config/config.php';
                                 </div>
                                 <span class="fill" data-percentage="80"></span>
                             </div>
-                        </div>
+                        </div> -->
 
                         <!-- Single Progress Bar -->
-                        <div class="single_progress_bar">
+                        <!-- <div class="single_progress_bar">
                             <p>Chili Jamu</p>
                             <div id="bar2" class="barfiller">
                                 <div class="tipWrap">
@@ -74,10 +74,10 @@ include __DIR__ . '/../config/config.php';
                                 </div>
                                 <span class="fill" data-percentage="85"></span>
                             </div>
-                        </div>
+                        </div> -->
 
                         <!-- Single Progress Bar -->
-                        <div class="single_progress_bar">
+                        <!-- <div class="single_progress_bar">
                             <p>Cardanom</p>
                             <div id="bar1" class="barfiller">
                                 <div class="tipWrap">
@@ -86,7 +86,7 @@ include __DIR__ . '/../config/config.php';
                                 <span class="fill" data-percentage="80"></span>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
 
                 <div class="col-12 col-lg-6">
@@ -97,8 +97,7 @@ include __DIR__ . '/../config/config.php';
                                 <div class="single-benefits-area">
                                     <img src="<?php echo "$app_url"; ?>img/core-img/potted-plant.png" alt="">
                                     <h5>Concept</h5>
-                                    <p>We place great emphasis on flexibility, service and cooperation. Together we find
-                                        the most suitable form of sale for you and your houseplants.</p>
+                                    <p>We place great emphasis on authenticity, quality, flexibility, service and collaboration. Together we find the form of sales that best suits you and your spice needs.</p>
                                 </div>
                             </div>
 
@@ -107,7 +106,7 @@ include __DIR__ . '/../config/config.php';
                                 <div class="single-benefits-area">
                                     <img src="<?php echo "$app_url"; ?>img/core-img/plant.png" alt="">
                                     <h5>Prepare</h5>
-                                    <p>We have prepared all things related to ornamental plants that suit your needs.
+                                    <p>We have prepared everything related to spices to suit your needs.
                                     </p>
                                 </div>
                             </div>
@@ -117,8 +116,7 @@ include __DIR__ . '/../config/config.php';
                                 <div class="single-benefits-area">
                                     <img src="<?php echo "$app_url"; ?>img/core-img/medicine.png" alt="">
                                     <h5>Retouch</h5>
-                                    <p>Before your ornamental plants get to your home or office, we will always confirm
-                                        the desired changes to you.</p>
+                                    <p>Before your spices arrive at your home or office, we will always confirm the desired changes to you.</p>
                                 </div>
                             </div>
 
@@ -127,8 +125,7 @@ include __DIR__ . '/../config/config.php';
                                 <div class="single-benefits-area">
                                     <img src="<?php echo "$app_url"; ?>img/core-img/growing.png" alt="">
                                     <h5>Finalize</h5>
-                                    <p>We will finalize and make sure again regarding your Ornamental Plants there are
-                                        no changes and according to your needs.</p>
+                                    <p>We will complete and ensure your spices do not change and suit your needs.</p>
                                 </div>
                             </div>
                         </div>
@@ -214,86 +211,6 @@ include __DIR__ . '/../config/config.php';
     <!-- ##### Service Area End ##### -->
 
 
-
-    <!-- ##### Team Area Start ##### -->
-    <section class="team-area section-padding-100-0">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <!-- Section Heading -->
-                    <div class="section-heading text-center">
-                        <h2>OUR TEAM</h2>
-                        <p>A team of dedicated experienced professionals.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-
-                <!-- Single Team Member Area -->
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-team-member text-center mb-100">
-                        <!-- Team Member Thumb -->
-                        <div class="team-member-thumb">
-                            <img src="<?php echo "$app_url"; ?>img/bg-img/team1.png" alt="">
-                        </div>
-                        <!-- Team Member Info -->
-                        <div class="team-member-info mt-30">
-                            <h5>Joseph Corbin</h5>
-                            <p>CEO &amp; Founder</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Team Member Area -->
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-team-member text-center mb-100">
-                        <!-- Team Member Thumb -->
-                        <div class="team-member-thumb">
-                            <img src="<?php echo "$app_url"; ?>img/bg-img/team2.png" alt="">
-                        </div>
-                        <!-- Team Member Info -->
-                        <div class="team-member-info mt-30">
-                            <h5>Tasha Deserio</h5>
-                            <p>Garden Designer</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Team Member Area -->
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-team-member text-center mb-100">
-                        <!-- Team Member Thumb -->
-                        <div class="team-member-thumb">
-                            <img src="<?php echo "$app_url"; ?>img/bg-img/team3.png" alt="">
-                        </div>
-                        <!-- Team Member Info -->
-                        <div class="team-member-info mt-30">
-                            <h5>Cody Baker</h5>
-                            <p>Plan Manager</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Team Member Area -->
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-team-member text-center mb-100">
-                        <!-- Team Member Thumb -->
-                        <div class="team-member-thumb">
-                            <img src="<?php echo "$app_url"; ?>img/bg-img/team4.png" alt="">
-                        </div>
-                        <!-- Team Member Info -->
-                        <div class="team-member-info mt-30">
-                            <h5>Pearl Kansas</h5>
-                            <p>Marketer</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <!-- ##### Team Area End ##### -->
 
     <!-- ##### Footer Area Start ##### -->
     
