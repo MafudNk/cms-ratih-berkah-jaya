@@ -7,7 +7,7 @@
                         <h2>ABOUT US</h2>
                         <p>To be a global leader in the export of premium spices, recognized for authenticity, quality, and sustainable practices.</p>
                     </div>
-                    <p>At Ratih Berkah Jaya, we take pride in being a distinguished player in the agricultural produce trading sector, specializing in the export of high-quality spices. Our journey is rooted in a commitment to providing not just products but experiences that resonate with our customers.</p>
+                    <p>At Ratih Berkah Jaya, we take pride in being a leading player in the agricultural products trading sector, specializing in the export of high quality spices. Our journey is rooted in a commitment to provide not only products but also experiences that resonate with our customers.</p>
 
                     <!-- Progress Bar Content Area -->
                     <!-- <div class="alazea-progress-bar mb-50">
@@ -88,23 +88,22 @@
 
                 <div class="col-12 col-lg-6">
                     <div class="alazea-benefits-area">
-                    <div class="row">
+                        <div class="row">
                             <!-- Single Benefits Area -->
                             <div class="col-12 col-sm-6">
                                 <div class="single-benefits-area">
-                                    <img src="img/core-img/potted-plant.png" alt="">
+                                    <img src="<?php echo "$app_url"; ?>img/core-img/potted-plant.png" alt="">
                                     <h5>Concept</h5>
-                                    <p>We place great emphasis on flexibility, service and cooperation. Together we find
-                                        the most suitable form of sale for you and your houseplants.</p>
+                                    <p>We place great emphasis on authenticity, quality, flexibility, service and collaboration. Together we find the form of sales that best suits you and your spice needs.</p>
                                 </div>
                             </div>
 
                             <!-- Single Benefits Area -->
                             <div class="col-12 col-sm-6">
                                 <div class="single-benefits-area">
-                                    <img src="img/core-img/plant.png" alt="">
+                                    <img src="<?php echo "$app_url"; ?>img/core-img/plant.png" alt="">
                                     <h5>Prepare</h5>
-                                    <p>We have prepared all things related to ornamental plants that suit your needs.
+                                    <p>We have prepared everything related to spices to suit your needs.
                                     </p>
                                 </div>
                             </div>
@@ -112,20 +111,18 @@
                             <!-- Single Benefits Area -->
                             <div class="col-12 col-sm-6">
                                 <div class="single-benefits-area">
-                                    <img src="img/core-img/medicine.png" alt="">
+                                    <img src="<?php echo "$app_url"; ?>img/core-img/medicine.png" alt="">
                                     <h5>Retouch</h5>
-                                    <p>Before your ornamental plants get to your home or office, we will always confirm
-                                        the desired changes to you.</p>
+                                    <p>Before your spices arrive at your home or office, we will always confirm the desired changes to you.</p>
                                 </div>
                             </div>
 
                             <!-- Single Benefits Area -->
                             <div class="col-12 col-sm-6">
                                 <div class="single-benefits-area">
-                                    <img src="img/core-img/growing.png" alt="">
+                                    <img src="<?php echo "$app_url"; ?>img/core-img/growing.png" alt="">
                                     <h5>Finalize</h5>
-                                    <p>We will finalize and make sure again regarding your Ornamental Plants there are
-                                        no changes and according to your needs.</p>
+                                    <p>We will complete and ensure your spices do not change and suit your needs.</p>
                                 </div>
                             </div>
                         </div>
