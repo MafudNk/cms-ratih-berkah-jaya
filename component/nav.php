@@ -82,7 +82,7 @@ include __DIR__ . '/../config/config.php';
                                             <li><a href=<?php echo "$about"; ?>>About</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href=<?php echo "$shop"?>>Product</a></li>
+                                    <li><a href=<?php echo "$product"?>>Product</a></li>
                                     <li><a href=<?php echo "$contact"?>>Contact</a></li>
                                 </ul>
 

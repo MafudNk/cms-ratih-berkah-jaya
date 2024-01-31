@@ -65,7 +65,7 @@ include __DIR__ . '/../config/config.php';
                                 <!-- Single Product Area -->
                                 <div class="col-12 col-sm-6 col-lg-4">
                                     <div class="single-product-area mb-50">
-                                        <a href="shop-details.php?id=<?php print_r($value['id']); ?>">
+                                        <a href="product-details.php?id=<?php print_r($value['id']); ?>">
                                             <!-- Product Image -->
                                             <div class="product-img">
                                                 <img src=<?php print_r($value['image_display']); ?> alt="">

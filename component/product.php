@@ -19,7 +19,7 @@ include __DIR__ . '/../config/config.php';
             <!-- Single Product Area -->
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="100ms">
-                    <a href="<?php echo "$app_url"; ?>/pages/shop-details.php?id=1">
+                    <a href="<?php echo "$app_url"; ?>/pages/product-details.php?id=1">
                         <!-- Product Image -->
                         <div class="product-img">
 
@@ -40,7 +40,7 @@ include __DIR__ . '/../config/config.php';
             <!-- Single Product Area -->
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="200ms">
-                    <a href="<?php echo "$app_url"; ?>/pages/shop-details.php?id=2">
+                    <a href="<?php echo "$app_url"; ?>/pages/product-details.php?id=2">
                         <!-- Product Image -->
                         <div class="product-img">
                             <img src="<?php echo "$app_url"; ?>img/bg-img/cardamom-modified.png" alt="">
@@ -56,7 +56,7 @@ include __DIR__ . '/../config/config.php';
             <!-- Single Product Area -->
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="300ms">
-                    <a href="<?php echo "$app_url"; ?>/pages/shop-details.php?id=3">
+                    <a href="<?php echo "$app_url"; ?>/pages/product-details.php?id=3">
                         <!-- Product Image -->
                         <div class="product-img">
                             <img src="<?php echo "$app_url"; ?>img/bg-img/mung_bean-modified.png" alt="">
@@ -72,7 +72,7 @@ include __DIR__ . '/../config/config.php';
             <!-- Single Product Area -->
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="400ms">
-                    <a href="<?php echo "$app_url"; ?>/pages/shop-details.php?id=4">
+                    <a href="<?php echo "$app_url"; ?>/pages/product-details.php?id=4">
                         <!-- Product Image -->
                         <div class="product-img">
                             <img src="<?php echo "$app_url"; ?>img/bg-img/abc_nutmeg-modified.png" alt="">
@@ -88,7 +88,7 @@ include __DIR__ . '/../config/config.php';
             </div>
 
             <div class="col-12 text-center">
-                <a href=<?php echo "$shop"; ?> class="btn alazea-btn">View All</a>
+                <a href=<?php echo "$product"; ?> class="btn alazea-btn">View All</a>
             </div>
 
         </div>
