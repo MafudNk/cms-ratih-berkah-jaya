@@ -55,6 +55,22 @@ include __DIR__ . '/../config/config.php';
 
             <!-- Single Product Area -->
             <div class="col-12 col-sm-6 col-lg-3">
+                <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="200ms">
+                    <a href="<?php echo "$app_url"; ?>/pages/product-details.php?id=7">
+                        <!-- Product Image -->
+                        <div class="product-img">
+                            <img src="<?php echo "$app_url"; ?>img/bg-img/clove-modified.png" alt="">
+                        </div>
+                        <!-- Product Info -->
+                        <div class="product-info mt-15 text-center">
+                            <p>Cloves</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Single Product Area -->
+            <div class="col-12 col-sm-6 col-lg-3">
                 <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="400ms">
                     <a href="<?php echo "$app_url"; ?>/pages/product-details.php?id=4">
                         <!-- Product Image -->
